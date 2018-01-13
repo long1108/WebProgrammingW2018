@@ -1,0 +1,27 @@
+﻿.table-style {
+    text-align: center;
+    width: 100%;
+    border: 0.5px #808080;
+    color: black;
+    height: 60%;   
+}
+
+    .table-style tr td {
+        text-align: center;
+        background: #4cc15b;
+        margin: 1em;
+        padding: 0 10px 0 10px;
+    }
+
+        .table-style tr td button {
+            background: #b55ea9;
+            max-height: 50px;
+        }
+
+            .table-style tr td button:hover {
+                opacity: 0.9;
+            }
+
+            .table-style tr td button:active {
+                background: red;
+            }

@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="Content/bootstrap.min.css" />
+    <link rel="stylesheet" href="Content/table/table.css" />
+    <title></title>
+</head>
+<body>
+     <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 col-sm-8 offset-sm-2">
+                <table border="1" class="table-style">
+                    <tr>
+                        <th>Last Name</th>
+                        <td colspan="3">
+                            <input class="form-control" type="text" placeholder="Last Name input" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>First Name</th>
+                        <td colspan="3">
+                            <input class="form-control" type="text" placeholder="First Name input" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Address</th>
+                        <td colspan="3">
+                            <textarea class="form-control">17 Hristo Botev Str. floor 3, apt 12</textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>City</th>
+                        <td>
+                            <input class="form-control" type="text" placeholder="City input" />
+                        </td>
+                        <th>State
+                        </th>
+                        <td>
+                            <input class="form-control" type="text" placeholder="State input" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Zip/Postal Code</th>
+                        <td colspan="3">
+                            <input class="form-control" type="text" placeholder="Zip/Postal Code input" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Country</th>
+                        <td colspan="3">
+                            <select class="custom-select" style="width: 150px">
+                                <option selected>VietNam</option>
+                                <option value="2">United State</option>
+                                <option value="3">New Zealand</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Phone (country code, area code, number)</th>
+                        <td colspan="3">
+                            (+<input type="text" class="form-control d-inline" style="width:50px" />
+                            )<input type="text" class="form-control d-inline" style="width:100px" />
+                            -<input type="text" class="form-control d-inline" style="width:100px" />
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <th>E-mail</th>
+                        <td colspan="3">
+                            <input class="form-control" type="text" placeholder="E-mail input" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Birth date</th>
+                        <td colspan="3">
+                            <input class="form-control" type="date" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Gender</th>
+                        <td colspan="3">
+                            <select class="custom-select" style="width: 100px">
+                                <option selected>Male</option>
+                                <option value="1">Female</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Starting date</th>
+                        <td colspan="3">
+                            <div class="custom-control custom-radio d-inline">
+                                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio1">Spring 2006</label>
+                            </div>
+                            <div class="custom-control custom-radio d-inline">
+                                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio2">Summer 2006</label>
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Comments/Questions</th>
+                        <td colspan="3">
+                            <textarea class="form-control">Please send me more information about the logging
+                </textarea>
+                        </td>
+                    </tr>
+                    <tr style="background-color: darkolivegreen">
+                        <td colspan="4" class="text-center">
+                            <button class="btn btn-success">Submit</button>
+                            <button class="btn btn-dark">Clear This Form</button>
+                        </td>
+
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+
+    <script type="text/javascript" src="Scripts/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="Scripts/popper.min.js"></script>
+    <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
+
+</body>
+</html>

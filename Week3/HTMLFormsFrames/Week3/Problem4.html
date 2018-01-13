@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Grid component</title> 
+    <link rel="stylesheet" href="Content/bootstrap.min.css" />
+
+</head>
+<body>
+    <div class="container">
+        <div class="row no-gutters">
+            <div>
+                <table class="table" border="1">
+                    <thead class="table-secondary">
+                        <tr>
+                            <th colspan="6">
+                                <p class="font-weight-bold" style="font-size: x-large">Drag a column header and drop it here to group by that column</p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="text-info  align-text-bottom" style="font-size:large">ProductID</p>
+                            </td>
+                            <td>
+                                <p class="text-info" style="font-size:large">Product Name</p>
+                            </td>
+                            <td>
+                                <p class="text-info" style="font-size:large">Unit price</p>
+                            </td>
+                            <td>
+                                <p class="text-info" style="font-size:large">Quantity per unit</p>
+                            </td>
+                            <td>
+                                <p class="text-info" style="font-size:large">Units in stock</p>
+                            </td>
+                            <td>
+                                <p class="text-info" style="font-size:large">Discontinued</p>                              
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                 <input class="form-control d-inline" type="text" style="width: 135px" />
+                            </td>
+                            <td>
+                                 <input class="form-control d-inline" type="text" />
+                            </td>
+                            <td>
+                                 <input class="form-control d-inline" type="text" style="width: 130px" />
+                                <span>
+                                    <img src="picture/funnel.png" style="width: 15px" />
+                                </span>
+                            </td>
+                            <td>
+                                 <input class="form-control d-inline" type="text" style="width: 135px" />
+                            </td>
+                            <td>
+                                 <input class="form-control d-inline" type="text" style="width: 135px" />
+                                <span>
+                                    <img src="picture/funnel.png" style="width: 15px" />
+                                </span>
+                            </td>
+                            <td>
+                                <input type="checkbox"  />
+                                <span>
+                                    <img src="picture/funnel.png" style="width: 15px;margin:14px" />
+                                </span>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Chai</td>
+                            <td>$18.00</td>
+                            <td>10 boxes x 20 bags</td>
+                            <td>39</td>
+                            <td>
+                                <input class="custom-checkbox d-inline" type="checkbox" /></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Chang</td>
+                            <td>$19.00</td>
+                            <td>24 - 12 oz bottles</td>
+                            <td>17</td>
+                            <td>
+                                <input class="custom-checkbox d-inline" type="checkbox" /></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Aniseed Syrup</td>
+                            <td>$10.00</td>
+                            <td>12 - 550 ml bottles</td>
+                            <td>13</td>
+                            <td>
+                                <input class="custom-checkbox d-inline" type="checkbox" /></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Chef Anton's Cajun Sersoning</td>
+                            <td>$22.00</td>
+                            <td>48 - 6 oz jars</td>
+                            <td>53</td>
+                            <td>
+                                <input class="custom-checkbox d-inline" type="checkbox" /></td>
+
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Chef Anton's Gumbo Mix</td>
+                            <td>$21.35</td>
+                            <td>36 boxes</td>
+                            <td>0</td>
+                            <td>
+                                <input class="custom-checkbox d-inline" type="checkbox" checked disabled /></td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Grandma's Boysenberry Spread</td>
+                            <td>$25.00</td>
+                            <td>12 - 8 oz jars</td>
+                            <td>120</td>
+                            <td>
+                                <input class="custom-checkbox d-inline" type="checkbox" /></td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Uncle Bob's Organic Dried Pears</td>
+                            <td>$30.00</td>
+                            <td>12 - 1 lb pkgs.</td>
+                            <td>15</td>
+                            <td>
+                                <input class="custom-checkbox d-inline" type="checkbox" /></td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Northwoods Cranberry Sauce</td>
+                            <td>$40.00</td>
+                            <td>12 - 12 oz jars</td>
+                            <td>6</td>
+                            <td>
+                                <input class="custom-checkbox d-inline" type="checkbox" /></td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Mishi Kobe Niku</td>
+                            <td>$97.00</td>
+                            <td>18 - 500 g pkgs.</td>
+                            <td>29</td>
+                            <td>
+                                <input class="custom-checkbox d-inline" type="checkbox" checked disabled /></td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Ikura</td>
+                            <td>$31.00</td>
+                            <td>12 - 200 ml jars</td>
+                            <td>31</td>
+                            <td>
+                                <input class="custom-checkbox d-inline" type="checkbox" /></td>
+                        </tr>
+                    </tbody>
+                    <tfoot class="table-secondary">
+                        <tr>
+                            <td colspan="6">
+                                <div class="row no-gutters">
+                                    <div class="col-6 btn-group mr-auto">
+                                        <button type="button" class="btn btn-secondary">
+                                            <span>
+                                                <img src="picture/Left.png" style="width: 17px" /></span>
+                                        </button>
+                                        <button type="button" class="btn btn-secondary">
+                                            <span>
+                                                <img src="picture/caretLeft.png" style="width: 17px" /></span>
+                                        </button>
+                                        <button type="button" class="btn btn-secondary">1</button>
+                                        <button type="button" class="btn btn-secondary">2</button>
+                                        <button type="button" class="btn btn-secondary">3</button>
+                                        <button type="button" class="btn btn-secondary">4</button>
+                                        <button type="button" class="btn btn-secondary">5</button>
+                                        <button type="button" class="btn btn-secondary">6</button>
+                                        <button type="button" class="btn btn-secondary">7</button>
+                                        <button type="button" class="btn btn-secondary">8</button>
+                                        <button type="button" class="btn btn-secondary">9</button>
+                                        <button type="button" class="btn btn-secondary">10</button>
+                                        <button type="button" class="btn btn-secondary">...</button>
+                                        <button type="button" class="btn btn-secondary">
+                                            <span>
+                                                <img src="picture/caretRight.png" style="width: 10px" /></span>
+                                        </button>
+                                        <button type="button" class="btn btn-secondary">
+                                            <span>
+                                                <img src="picture/Right.png" style="width: 10px" /></span>
+                                        </button>
+                                    </div>
+                                    <div class="col-2 mr-auto">
+                                        <span>Page size</span>
+                                        <select class="custom-select" style="width: 100px">
+                                            <option selected>1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-3 ml-auto text-right">
+                                        <span>335104 items in 33511 pages</span>
+                                    </div>
+
+                                </div>
+
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="Scripts/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>

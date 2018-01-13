@@ -1,0 +1,14 @@
+﻿.table-style {   
+    border-color:red;
+    
+}
+
+    .table-style th {
+        text-align: center;
+        border-color:red;
+    }
+    .table-style td {
+        text-align: left;
+        border-color: red;
+    }
+
