@@ -1,0 +1,16 @@
+﻿body {
+}
+
+.navbar.navbar-top {
+    background: #283e4a !important;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.navbar.navbar-top .navbar-nav .nav-item .nav-link {
+    color: white
+}
+
+.modal-header {
+    text-align: center !important;
+}
