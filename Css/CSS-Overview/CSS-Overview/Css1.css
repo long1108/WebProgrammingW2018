@@ -1,0 +1,43 @@
+﻿body {
+    background: #595959
+}
+
+table {
+    padding: 0 40% 0 40%;
+    text-align: left;
+    font-size: 14px
+}
+
+    table th {
+        color: white;
+        font-style: italic;
+        padding-right: 20px;
+        padding-bottom:20px
+    }
+
+.color1 {
+    color: lightslategrey
+}
+
+.color2 {
+    color: #d4d89e
+}
+
+.color3 {
+    color: red
+}
+
+.color4 {
+    color: #ed9a2f
+}
+
+.th {
+    padding-bottom: 40px;
+}
+
+img {
+    width: 10px
+}
+.paddingBottom{
+    padding-bottom:20px
+}

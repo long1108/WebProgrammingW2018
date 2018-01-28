@@ -1,0 +1,25 @@
+﻿body {
+    background: #7f8d83;
+}
+
+div {
+    text-align: center
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #d4d89e
+}
+
+a {
+    color: white;
+    font-size: x-large;
+}
+
+h2 {
+    color: #d4d89e
+}
+footer{
+    text-align:center
+}

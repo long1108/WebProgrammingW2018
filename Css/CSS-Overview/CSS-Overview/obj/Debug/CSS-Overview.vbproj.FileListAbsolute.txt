@@ -1,0 +1,13 @@
+C:\Users\Kunz\source\repos\CSS-Overview\CSS-Overview\bin\CSS-Overview.dll.config
+C:\Users\Kunz\source\repos\CSS-Overview\CSS-Overview\bin\CSS-Overview.dll
+C:\Users\Kunz\source\repos\CSS-Overview\CSS-Overview\bin\CSS-Overview.pdb
+C:\Users\Kunz\source\repos\CSS-Overview\CSS-Overview\bin\CSS-Overview.xml
+C:\Users\Kunz\source\repos\CSS-Overview\CSS-Overview\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Kunz\source\repos\CSS-Overview\CSS-Overview\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Kunz\source\repos\CSS-Overview\CSS-Overview\obj\Debug\CSS-Overview.vbprojResolveAssemblyReference.cache
+C:\Users\Kunz\source\repos\CSS-Overview\CSS-Overview\obj\Debug\CSS_Overview.Resources.resources
+C:\Users\Kunz\source\repos\CSS-Overview\CSS-Overview\obj\Debug\CSS-Overview.vbproj.GenerateResource.Cache
+C:\Users\Kunz\source\repos\CSS-Overview\CSS-Overview\obj\Debug\CSS-Overview.vbproj.CoreCompileInputs.cache
+C:\Users\Kunz\source\repos\CSS-Overview\CSS-Overview\obj\Debug\CSS-Overview.dll
+C:\Users\Kunz\source\repos\CSS-Overview\CSS-Overview\obj\Debug\CSS-Overview.xml
+C:\Users\Kunz\source\repos\CSS-Overview\CSS-Overview\obj\Debug\CSS-Overview.pdb
