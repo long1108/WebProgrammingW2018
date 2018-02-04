@@ -1,0 +1,146 @@
+﻿
+div form {
+    display: inline-block;
+    float: right;
+    padding-right: 5%;
+    padding-top: 20px;
+    font-size: small
+}
+
+    div form p {
+        display: inline-block;
+    }
+
+    div form input {
+        display: inline-block;
+    }
+
+    div form button {
+        display: inline-block;
+    }
+
+h1 {
+    display: inline-block;
+    font: 400 50px/1.2 'Leckerli One', Helvetica, sans-serif;
+    color: white;
+    text-shadow: 0 0 0px #620fd2, 0 0 30px #620fd2;
+}
+
+body {
+    color: white;
+    background-color: white;
+    background-image: linear-gradient( #d0b4f5, #470483 );
+
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size:14px;
+}
+
+.borderCirle {
+    -moz-border-radius-topleft: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+}
+
+.borderCirleBlack {
+    border: 1px solid #470483;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover {
+            background-color: #c8abe1;
+        }
+.ul {
+    list-style-image: url(http://www.clker.com/cliparts/l/t/9/T/p/5/blue-elliptical-form-hi.png) !important;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+    /* Hide the browser's default radio button */
+    .container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+    top: 5px;
+    left: 5px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #7818ce;
+}
+

@@ -1,0 +1,13 @@
+C:\Users\Kunz\source\repos\CSS-Presentation\CSS-Presentation\bin\CSS-Presentation.dll.config
+C:\Users\Kunz\source\repos\CSS-Presentation\CSS-Presentation\bin\CSS-Presentation.dll
+C:\Users\Kunz\source\repos\CSS-Presentation\CSS-Presentation\bin\CSS-Presentation.pdb
+C:\Users\Kunz\source\repos\CSS-Presentation\CSS-Presentation\bin\CSS-Presentation.xml
+C:\Users\Kunz\source\repos\CSS-Presentation\CSS-Presentation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Kunz\source\repos\CSS-Presentation\CSS-Presentation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Kunz\source\repos\CSS-Presentation\CSS-Presentation\obj\Debug\CSS-Presentation.vbprojResolveAssemblyReference.cache
+C:\Users\Kunz\source\repos\CSS-Presentation\CSS-Presentation\obj\Debug\CSS_Presentation.Resources.resources
+C:\Users\Kunz\source\repos\CSS-Presentation\CSS-Presentation\obj\Debug\CSS-Presentation.vbproj.GenerateResource.Cache
+C:\Users\Kunz\source\repos\CSS-Presentation\CSS-Presentation\obj\Debug\CSS-Presentation.vbproj.CoreCompileInputs.cache
+C:\Users\Kunz\source\repos\CSS-Presentation\CSS-Presentation\obj\Debug\CSS-Presentation.dll
+C:\Users\Kunz\source\repos\CSS-Presentation\CSS-Presentation\obj\Debug\CSS-Presentation.xml
+C:\Users\Kunz\source\repos\CSS-Presentation\CSS-Presentation\obj\Debug\CSS-Presentation.pdb

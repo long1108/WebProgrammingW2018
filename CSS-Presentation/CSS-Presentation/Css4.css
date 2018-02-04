@@ -1,0 +1,23 @@
+﻿.btn-group button {
+    background-color: #23acc3; 
+    border: 1px solid blue;
+    color: white; 
+    padding: 5px;
+    cursor: pointer; 
+    float: left; 
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; 
+}
+
+
+.btn-group button:hover {
+    background-color: #ff6a00;
+}
