@@ -1,0 +1,2051 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="Content/bootstrap.min.css" />
+    <script type="text/javascript" src="Scripts/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="Scripts/popper.min.js"></script>
+    <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="CssCafeF.css" />
+    <link rel="stylesheet" href="Glyphicon.css" />
+    <link rel="stylesheet" href="ScrollBar.css" />
+    <script type="text/javascript" src="Scroll.js"></script>
+    <script type="text/javascript" src="radioButton.js"></script>
+    <script type="text/javascript" src="sideBarScroll.js"></script>
+    <script type="text/javascript" src="videoPlay.js"></script>
+</head>
+<body>
+    <header>
+        <div class="Header">
+            <div class=" one-edge-shadow" style="width:100%">
+                <div class="container d-flex justify-content-around align-items-center">
+                    <a href="#" style="width:200px"><img class="logo" src="LogoCafeF.png" style="width:80%" /></a>
+                    <div class="p-2" style="padding-top:50px;font-size:12px;font-weight:600">
+                        Xem bản thử nghiệm <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div class="d-flex align-top" id="maCK" style="font-size:12px">
+                        <a href="#" class="boderRight">Chọn mã CK cần theo dõi</a>
+                        <a href="#" class="boderRight">Chọn mã CK cần theo dõi</a>
+                        <a href="#" class="boderRight">Chọn mã CK cần theo dõi</a>
+                        <a href="#" class="boderRight">Chọn mã CK cần theo dõi</a>
+                        <a href="#" class="boderRight">Chọn mã CK cần theo dõi</a>
+                        <a href="#" class="boderRight">Chọn mã CK cần theo dõi</a>
+                        <a href="#" class="boderRight">Chọn mã CK cần theo dõi</a>
+                        <a href="javascript:void(0)" class="ml-3" onclick="myFunction()" style="width:45px"><img src="dropdownIcon.PNG" /></a>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div id="myDIV" style="display:none;width:500px;left:630px; z-index:5; overflow:hidden; position:absolute;background-color:whitesmoke">
+                <div class="input-group" style="width:300px;margin:30px 100px 50px 100px">
+                    <input type="text" class="form-control" placeholder="Mã chứng khoán muốn theo dõi..." aria-label="" aria-describedby="basic-addon1">
+                    <div class="input-group-append">
+                        <button class="btn" type="button" style="color:red;font-size:large;background-color:none">+</button>
+                    </div>
+                </div>
+                <span style="font-size:13px;padding:10%"><img src="iconX.png" width="20" /> Xóa toàn bộ</span>
+            </div>
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myDIV");
+                    if (x.style.display === "none") {
+                        x.style.display = "block";
+                    } else {
+                        x.style.display = "none";
+                    }
+                }
+            </script>
+
+            <div class=" container">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div style="font-size:12px;margin-top:10px">
+                            <div class="linkBorder" style="width:150px;margin-bottom:7px;margin-left:100px;padding:5px"><a href="#"><img src="iconGmail.png" style="width:25px;margin-left:5px" /><span style="margin-left:10px;color:#797979">Gửi tin nhanh</span></a></div>
+                            <div class="linkBorder" style="width:150px;margin-bottom:7px;margin-left:100px;padding:5px"><a href="#"><img src="iconIncrese.png" style="width:25px;margin-left:5px" /><span style="margin-left:10px;color:#797979">Bảng giá điện tử</span></a></div>
+                            <div class="linkBorder" style="width:150px;margin-bottom:7px;margin-left:100px;padding:5px"><a href="#"><img src="iconDollar.png" style="width:25px;margin-left:5px" /><span style="margin-left:10px;color:#797979">Danh mục điện tử</span></a></div>
+                        </div>
+                    </div>
+                    <div class="col" style="margin-right:20px">
+                        <div>
+                            <div class="d-flex justify-content-start" style="width:470px;height:20px;font-size:12px;border-bottom:1px solid #f2f2f2">
+                                <div style="color:#c90000;font-weight:500">TIN MỚI</div>
+                                <div class="ml-auto"><a href="#" style="color:#666;font-weight:normal">Đọc nhanh >></a></div>
+                            </div>
+                            <div class="form-elegant scrollbar-light-blue" style="font-size:12px;margin-top:10px">
+                                <div class="d-flex justify-content-start" style="border-bottom:1px solid #f2f2f2;padding-bottom:10px;margin-bottom:10px">
+                                    <span style="display:inline-block;margin-right:10px">12:30</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid #f2f2f2;padding-left:15px">Dưới thời tân Chủ tịch Fed Jeremy Powell, thị trường tài chính liệu có sóng gió hơn?</span>
+                                </div>
+
+                                <div class="d-flex justify-content-start" style="border-bottom:1px solid #f2f2f2;padding-bottom:10px;margin-bottom:10px">
+                                    <span style="display:inline-block;margin-right:10px">12:30</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid #f2f2f2;padding-left:15px">Dưới thời tân Chủ tịch Fed Jeremy Powell, thị trường tài chính liệu có sóng gió hơn?</span>
+                                </div>
+
+                                <div class="d-flex justify-content-start" style="border-bottom:1px solid #f2f2f2;padding-bottom:10px;margin-bottom:10px">
+                                    <span style="display:inline-block;margin-right:10px">12:30</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid #f2f2f2;padding-left:15px">Dưới thời tân Chủ tịch Fed Jeremy Powell, thị trường tài chính liệu có sóng gió hơn?</span>
+                                </div>
+
+                                <div class="d-flex justify-content-start" style="border-bottom:1px solid #f2f2f2;padding-bottom:10px;margin-bottom:10px">
+                                    <span style="display:inline-block;margin-right:10px">12:30</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid #f2f2f2;padding-left:15px">Dưới thời tân Chủ tịch Fed Jeremy Powell, thị trường tài chính liệu có sóng gió hơn?</span>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+
+                        <div class="d-inline-flex">
+                            <div class="row" style="font-size:11px">
+                                <div class="col">
+                                    <div>
+                                        <p>VN-Index: <span style="color:#128f0c"><b>1,124.59</b> +4.98 +0.44%<br /></span>GTGD: 6,336.3 tỷ VNĐ</p>
+                                        <img src="VNindex.png" style="width:80%" />
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <p>HNX-Index <span style="color:#128f0c"><b>128.18</b> +0.89 +0.70%<br /></span>GTGD: 915.6 tỷ VNĐ</p>
+                                    <div><img src="HNXIndex.jpg" style="width:80%" /></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="navbar-expand-sm navbar-top" id="nav_bar" style="background-color:#004370;padding-top:0;padding-bottom:0">
+                <div class="container">
+                    <div class="btn-group">
+                        <button type="button" class="btn" style="font-size:10px;background-color:#0064a6"><img src="IconHome.png" style="width:20px;margin-top:8px" /></button>
+                        <button type="button" class="btn">THỜI SỰ</button>
+                        <button type="button" class="btn">CHỨNG KHOÁN</button>
+                        <button type="button" class="btn">BẤT ĐỘNG SẢN</button>
+                        <button type="button" class="btn">DOANH NGHIỆP</button>
+                        <button type="button" class="btn">NGÂN HÀNG</button>
+                        <button type="button" class="btn">TÀI CHÍNH QUỐC TẾ</button>
+                        <button type="button" class="btn">VĨ MÔ</button>
+                        <button type="button" class="btn">SỐNG</button>
+                        <button type="button" class="btn">HÀNG HÓA</button>
+                        <button type="button" class="btn" onmouseover="myFunction2()" style="font-size:larger;padding-bottom:15px">...</button>
+                    </div>
+                    <div class="btn-group ml-5">
+                        <button type="button" class="btn" style="height:51.67px">Dữ liệu</button>
+                        <button type="button" class="btn" style="height:51.67px">Top 200</button>
+                    </div>
+                </div>
+
+
+            </nav>
+            <!-- ************** -->
+            <div id="myDIV2" style="display:none; position:absolute;background-color:white;font-size:13px;width:1050px;height:120px;left:122px">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="d-flex align-items-center" id="tableMouseOver" style="margin-left:30px">
+                            <div>
+                                <ul>
+                                    <li>
+                                        <h5>Tin tức</h5>
+                                    </li>
+                                    <li>
+                                        <a href="#">Thời sự</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Doanh nghiệp</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Kinh tế vĩ mô</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <ul>
+                                    <li>
+                                        <h5>Tài chính - Chứng khoán</h5>
+                                    </li>
+                                    <li>
+                                        <a href="#">Chứng khoán</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Tài chính ngân hàng</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Tài chính quốc tế</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <ul>
+                                    <li>
+                                        <h5>Bất động sản</h5>
+                                    </li>
+                                    <li>
+                                        <a href="#">Tin tức</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Dự án</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Bản đồ dự án</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <ul>
+                                    <li>
+                                        <h5>Khác</h5>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hàng hóa nguyên liệu</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Sống</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Video</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <h5>CHỦ ĐỀ NÓNG</h5>
+                        <ul style="padding-left:0">
+                            <li>
+                                <a href="#">Khách VIP gửi tiền ở Eximbank bị mất hơn 300 tỷ</a>
+                            </li>
+                            <li>
+                                <a href="#">Kết quả kinh doanh các ngân hàng 2017</a>
+                            </li>
+                            <li>
+                                <a href="#">Thưởng Tết Mậu Tuất 2018</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+            <script>
+                function myFunction2() {
+                    var x = document.getElementById("myDIV2");
+                    if (x.style.display === "none") {
+                        x.style.display = "block";
+                    } else {
+                        x.style.display = "none";
+                    }
+                }
+            </script>
+
+
+        </div>
+    </header>
+
+    <!-- iframe -->
+    <div style="height:130px;text-align:center;background:#f2f2f2">
+        <div style="padding:20px 0 20px 0">
+            <iframe src="//adi.admicro.vn/adt/banners/nam2015/4043/min_html5/doanoanh/2018_01_16/980x90_marina/980x90_marina/980x90_marina.html?url=%2F%2Flg1.logging.admicro.vn%2Fadn%3Fdmn%3Dhttp%253A%2F%2Fcafef.vn%2F%26lsn%3D1519536274552%26ce%3D1%26lc%3D4%26cr%3D1517127340%26ui%3D601712734020427273%26ii%3D870087755%26bi%3D0%26cmpg%3D27718%26items%3D95162%26zid%3D10021%26cid%3D-1%26tp%3D11%26tpn%3D4%26cov%3D1%26pr%3D9530562054%26adc_cpa%3D1%26re%3Dhttp%253A%252F%252Fdatxanhnhatrang.com.vn%252Fdu-an-marina-suites-nha-trang%252F&amp;admid=adnzone_10021_0_95162" width="980" height="90" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </div>
+
+    <div class="content" style="padding:0 12% 0 12%">
+        <div class="row" style="margin-top:20px">
+            <div class="col-8">
+                <a href="#" style="color:#1c1c1c;font-size:23px;line-height:30px;font-weight:bold">Nói phải biết "liệu cơm gắp mắm" nhưng Thuận Thảo đã rơi vào cảnh lỗ lũy kế cả nghìn tỷ đồng như thế nào?</a>
+                <div class="d-flex align-content-around" style="margin-bottom:25px">
+                    <div style="background-color:#ecf8ff">
+                        <p>Để có thể thuyết phục được ngân hàng, bà Thanh cho biết phải đem hầu hết tài sản cá nhân ra đặt cược. Toàn bộ tài sản cá nhân, nhà cửa của mình, bà cũng đem đi thế chấp hết.</p>
+
+                    </div>
+                    <div>
+                        <img src="http://cafefcdn.com/zoom/370_230/2018/2/23/photo1519351971024-151935197102481580958.png" />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-4"><img style="width:100%" src="http://cafefcdn.com/zoom/230_143/2018/2/25/photo1519528059557-15195280595571742596653.jpg" /><br /><p style="color:#1c1c1c;font-size:15px;line-height:22px;font-weight:bold">Vụ cuỗm 301 tỉ đồng: Truy nã quốc tế nguyên phó giám đốc Eximbank</p></div>
+                    <div class="col-4"><img style="width:100%" src="http://cafefcdn.com/zoom/230_143/2018/2/25/photo1519523122287-1519523122287864286412.png" /><br /><p style="color:#1c1c1c;font-size:15px;line-height:22px;font-weight:bold">SSI dự báo: Quỹ ETF FTSE Vietnam có thể loại FLC và GTN, thêm VRE</p></div>
+                    <div class="col-4"><img style="width:100%" src="http://cafefcdn.com/zoom/230_143/2018/2/25/photo1519518734918-15195187349191068007131.jpg" /><br /><p style="color:#1c1c1c;font-size:15px;line-height:22px;font-weight:bold">Ngày Thần tài: Nhà vàng mở cửa từ 6h sáng đến hết ngày, giá vọt lên 37,7 triệu đồng/lượng</p></div>
+                </div>
+
+                <div style="background-color:#2a3346;padding:10px 0;margin-bottom:20px" id="top_event">
+                    <a href="#"><span>»</span>Khách VIP gửi tiền ở Eximbank bị mất hơn 300 tỷ</a>
+                    <a href="#"><span>»</span>Kết quả kinh doanh năm 2017</a><br />
+                    <a href="#"><span>»</span>Thưởng Tết Mậu Tuất 2018</a>
+                    <a href="#"><span>»</span>Kết quả kinh doanh các ngân hàng 2017</a>
+                </div>
+
+                <div class="groupContent">
+                    <div class="row">
+                        <div class="col-6" style="border-right:1px solid #f2f2f2;background-color:#f0f1f5">
+                            <ul style="padding-left:0">
+                                <li style="border-bottom:1px dotted grey;list-style:none" id="gocDauTu">
+                                    <span>
+                                        <img src="iconIncrese2.png" style="width:30px" />
+                                        <span style="color:#222;font-size:18px;height:35px;font-weight:700">
+                                            GÓC NHÀ ĐẦU TƯ
+                                        </span>
+                                    </span>
+                                </li>
+                                <li style="border-bottom:1px dotted grey">
+                                    <a href="#">Bitcoin có thể là vàng kỹ thuật số?</a>
+                                </li>
+                                <li style="border-bottom:1px dotted grey">
+                                    <a href="#">Viện Dệt may - đơn vị sở hữu hàng loạt khu "đất vàng" sẽ tiến hành IPO vào ngày 12/3</a>
+                                </li>
+                                <li style="border-bottom:1px dotted grey">
+                                    <a href="#">Chứng khoán ngày càng ‘đắt đỏ’, nhà đầu tư có nên tiếp tục tìm kiếm lợi nhuận từ cổ phiếu của các 'ông lớn'?</a>
+                                </li>
+                                <li style="border-bottom:1px dotted grey">
+                                    <a href="#">Tích cóp tiền mặt trong nhiều tháng, Quỹ VOF của VinaCapital đã "tiêu" hết hơn 60 triệu USD chỉ trong tháng 1</a>
+                                </li>
+                                <li style="border-bottom:1px dotted grey">
+                                    <a href="#">Chưa ICO đã có thể huy động 1,6 tỷ USD, Telegram thực sự là thương vụ đáng giá hay chỉ là cơn sốt ảo?</a>
+                                </li>
+                                <li style="border-bottom:1px dotted grey">
+                                    <a href="#">Hàng loạt cổ phiếu lớn vượt đỉnh lịch sử ngay trong phiên giao dịch đầu năm mới Mậu Tuất 2018</a>
+                                </li>
+                                <li style="border-bottom:1px dotted grey">
+                                    <a href="#">Đầu tư vài nghìn tỷ đồng một cách thầm lặng, Bầu Hiển đang trở thành tay chơi lớn trong ngành nông nghiệp</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <div style="margin:20px 0">
+                                <img src="http://cafefcdn.com/zoom/330_205/2018/2/13/photo1518488138508-1518488138509852361323.jpg" style="width:100%" />
+                                <div>
+                                    <a href="#" style="color: #404957;font-size: 16px;font-family: Roboto-Medium;font-weight: normal;line-height: 22px">Đây là những hình ảnh mà hàng triệu người Việt không còn thấy tận mắt tại ngôi nhà mình</a>
+                                </div>
+                            </div>
+                            <div style="margin:20px 0">
+                                <img src="http://cafefcdn.com/zoom/330_205/2018/2/12/photo1518418041319-1518418041320379519466.jpg" style="width:100%" />
+                                <div>
+                                    <a href="#" style="color: #404957;font-size: 16px;font-family: Roboto-Medium;font-weight: normal;line-height: 22px">Hưng Đào: Gã kiến trúc sư"cứu nhà ống"</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ul">
+                    <div class="li">
+                        <div class="row" style="padding-top:25px;padding-bottom:25px;border-bottom: 1px dotted grey">
+                            <div class="col-5">
+                                <img class="borderRadius3px" src="http://cafefcdn.com/zoom/260_162/2018/2/26/photo1519611998000-15196119980011195681758.jpg" style="width:100%" />
+                            </div>
+                            <div class="col-7">
+                                <h4><b>Vụ cháy ở VPBank Đồng Hới: Hồ sơ, giấy tờ của khách hàng có ảnh hưởng?</b></h4>
+                                <a href="#" class="d-inline" style="font-size:15px;color:#404f5d">Tài chính - ngân hàng</a><small class="d-inline" style="color:#929292;margin-left:5px">- 42 phút trước</small>
+                                <p style="font-size:14px;margin-top:14px;line-height: 20px;">VPBank cho biết, vụ cháy chỉ gây hư hại bảng biển phía ngoài trụ sở và không gây thiệt hại về người.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="li">
+                        <div class="row" style="padding-top:25px;padding-bottom:25px;border-bottom: 1px dotted grey">
+                            <div class="col-5">
+                                <img class="borderRadius3px" src="http://cafefcdn.com/zoom/260_162/2018/2/26/photo1519611998000-15196119980011195681758.jpg" style="width:100%" />
+                            </div>
+                            <div class="col-7">
+                                <h4><b>Vụ cháy ở VPBank Đồng Hới: Hồ sơ, giấy tờ của khách hàng có ảnh hưởng?</b></h4>
+                                <a href="#" class="d-inline" style="font-size:15px;color:#404f5d">Tài chính - ngân hàng</a><small class="d-inline" style="color:#929292;margin-left:5px">- 42 phút trước</small>
+                                <p style="font-size:14px;margin-top:14px;line-height: 20px;">VPBank cho biết, vụ cháy chỉ gây hư hại bảng biển phía ngoài trụ sở và không gây thiệt hại về người.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="li">
+                        <div class="row" style="padding-top:25px;padding-bottom:25px;border-bottom: 1px dotted grey">
+                            <div class="col-5">
+                                <img class="borderRadius3px" src="http://cafefcdn.com/zoom/260_162/2018/2/26/photo1519611998000-15196119980011195681758.jpg" style="width:100%" />
+                            </div>
+                            <div class="col-7">
+                                <h4><b>Vụ cháy ở VPBank Đồng Hới: Hồ sơ, giấy tờ của khách hàng có ảnh hưởng?</b></h4>
+                                <a href="#" class="d-inline" style="font-size:15px;color:#404f5d">Tài chính - ngân hàng</a><small class="d-inline" style="color:#929292;margin-left:5px">- 42 phút trước</small>
+                                <p style="font-size:14px;margin-top:14px;line-height: 20px;">VPBank cho biết, vụ cháy chỉ gây hư hại bảng biển phía ngoài trụ sở và không gây thiệt hại về người.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="li">
+                        <div class="row" style="padding-top:25px;padding-bottom:25px;border-bottom: 1px dotted grey">
+                            <div class="col-5">
+                                <img class="borderRadius3px" src="http://cafefcdn.com/zoom/260_162/2018/2/26/photo1519611998000-15196119980011195681758.jpg" style="width:100%" />
+                            </div>
+                            <div class="col-7">
+                                <h4><b>Vụ cháy ở VPBank Đồng Hới: Hồ sơ, giấy tờ của khách hàng có ảnh hưởng?</b></h4>
+                                <a href="#" class="d-inline" style="font-size:15px;color:#404f5d">Tài chính - ngân hàng</a><small class="d-inline" style="color:#929292;margin-left:5px">- 42 phút trước</small>
+                                <p style="font-size:14px;margin-top:14px;line-height: 20px;">VPBank cho biết, vụ cháy chỉ gây hư hại bảng biển phía ngoài trụ sở và không gây thiệt hại về người.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="li">
+                        <div class="row" style="padding-top:25px;padding-bottom:25px;border-bottom: 1px dotted grey">
+                            <div class="col-5">
+                                <img class="borderRadius3px" src="http://cafefcdn.com/zoom/260_162/2018/2/26/photo1519611998000-15196119980011195681758.jpg" style="width:100%" />
+                            </div>
+                            <div class="col-7">
+                                <h4><b>Vụ cháy ở VPBank Đồng Hới: Hồ sơ, giấy tờ của khách hàng có ảnh hưởng?</b></h4>
+                                <a href="#" class="d-inline" style="font-size:15px;color:#404f5d">Tài chính - ngân hàng</a><small class="d-inline" style="color:#929292;margin-left:5px">- 42 phút trước</small>
+                                <p style="font-size:14px;margin-top:14px;line-height: 20px;">VPBank cho biết, vụ cháy chỉ gây hư hại bảng biển phía ngoài trụ sở và không gây thiệt hại về người.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="li">
+                    <div class="row" style="padding-top:25px;padding-bottom:25px">
+                        <div class="col-5">
+                            <img class="borderRadius3px" src="http://cafefcdn.com/zoom/260_162/2018/2/26/photo1519611998000-15196119980011195681758.jpg" style="width:100%" />
+                        </div>
+                        <div class="col-7">
+                            <h4><b>Vụ cháy ở VPBank Đồng Hới: Hồ sơ, giấy tờ của khách hàng có ảnh hưởng?</b></h4>
+                            <a href="#" class="d-inline" style="font-size:15px;color:#404f5d">Tài chính - ngân hàng</a><small class="d-inline" style="color:#929292;margin-left:5px">- 42 phút trước</small>
+                            <p style="font-size:14px;margin-top:14px;line-height: 20px;">VPBank cho biết, vụ cháy chỉ gây hư hại bảng biển phía ngoài trụ sở và không gây thiệt hại về người.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="groupContent2">
+
+                    <div class="row" style="border-bottom:1px solid #f2f2f2;border-top:1px solid #f2f2f2">
+                        <div class="col-7" style="border-right:1px solid #f2f2f2">
+                            <div class="row">
+                                <div class="col">
+                                    <span style="font-weight:700;font-size:larger">ĐÁNG CHÚ Ý</span>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div style="margin-top:20px">
+                                        <img src="http://cafefcdn.com/zoom/194_121/2018/2/23/photo1519403637031-1519403637031285796115.png" style="width:100%" /><br />
+                                        <a href="#">Bài học "Ba ngày không gặp nhau, gặp lại sẽ là người khác"</a>
+                                    </div>
+
+                                    <div style="margin-top:20px">
+                                        <img src="http://cafefcdn.com/zoom/194_121/2018/2/23/photo1519403637031-1519403637031285796115.png" style="width:100%" /><br />
+                                        <a href="#">Bài học "Ba ngày không gặp nhau, gặp lại sẽ là người khác"</a>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div style="margin-top:20px">
+                                        <img src="http://cafefcdn.com/zoom/194_121/2018/2/23/photo1519403637031-1519403637031285796115.png" style="width:100%" /><br />
+                                        <a href="#">Bài học "Ba ngày không gặp nhau, gặp lại sẽ là người khác"</a>
+                                    </div>
+                                    <div style="margin-top:20px">
+                                        <img src="http://cafefcdn.com/zoom/194_121/2018/2/23/photo1519403637031-1519403637031285796115.png" style="width:100%" /><br />
+                                        <a href="#">Bài học "Ba ngày không gặp nhau, gặp lại sẽ là người khác"</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5">
+                            <div class="row">
+                                <div class="col">
+                                    <span style="font-weight:700;font-size:larger">GÓC NHÌN CHUYÊN GIA</span>
+                                </div>
+                            </div>
+
+                            <div style="background-color:#e9f2f8;margin:20px 0">
+                                <div style="text-align:center;width:35px;height:35px;margin-left:100px">''</div>
+                                <a href="#">Trách nhiệm ngân hàng ra sao khi cán bộ ngân hàng lừa dối khách gửi tiền?</a>
+                                <div class="d-flex justify-content-start align-items-end">
+                                    <p style="margin-bottom:0;color:#4e6c95;font-size:small">TS Cấn Văn Lực</p> <img class="ml-auto" src="http://cafefcdn.com/zoom/70_70/2017/1-ts3539-1428211673242-1489548817467.png" />
+                                </div>
+                            </div>
+
+                            <div style="background-color:#e9f2f8;margin:20px 0">
+                                <div style="text-align:center;width:35px;height:35px;margin-left:100px">''</div>
+                                <a href="#">Trách nhiệm ngân hàng ra sao khi cán bộ ngân hàng lừa dối khách gửi tiền?</a>
+                                <div class="d-flex justify-content-start align-items-end">
+                                    <p style="margin-bottom:0;color:#4e6c95;font-size:small">TS Cấn Văn Lực</p> <img class="ml-auto" src="http://cafefcdn.com/zoom/70_70/2017/1-ts3539-1428211673242-1489548817467.png" />
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="ul2">
+                    <div class="li">
+                        <div class="row" style="padding-top:25px;padding-bottom:25px;border-bottom: 1px dotted grey">
+                            <div class="col-5">
+                                <img class="borderRadius3px" src="http://cafefcdn.com/zoom/260_162/2018/2/26/photo1519611998000-15196119980011195681758.jpg" style="width:100%" />
+                            </div>
+                            <div class="col-7">
+                                <a href="#" style="font-size:23px;line-height:28px;color:#171717;font-weight:600">Vụ cháy ở VPBank Đồng Hới: Hồ sơ, giấy tờ của khách hàng có ảnh hưởng?</a><br />
+                                <a href="#" class="d-inline" style="font-size:15px;color:#404f5d;font-weight:600">Tài chính - ngân hàng</a><small class="d-inline" style="margin-left:5px;color:#929292">- 42 phút trước</small>
+                                <p style="font-size:14px;line-height:20px;color:#5f5f5f;margin-top:10px">VPBank cho biết, vụ cháy chỉ gây hư hại bảng biển phía ngoài trụ sở và không gây thiệt hại về người.</p>
+                            </div>
+                        </div>
+
+                        <div class="row" style="padding-top:25px;padding-bottom:25px;border-bottom: 1px dotted grey">
+                            <div class="col-5">
+                                <img class="borderRadius3px" src="http://cafefcdn.com/zoom/260_162/2018/2/26/photo1519611998000-15196119980011195681758.jpg" style="width:100%" />
+                            </div>
+                            <div class="col-7">
+                                <a href="#" style="font-size:23px;line-height:28px;color:#171717;font-weight:600">Vụ cháy ở VPBank Đồng Hới: Hồ sơ, giấy tờ của khách hàng có ảnh hưởng?</a><br />
+                                <a href="#" class="d-inline" style="font-size:15px;color:#404f5d;font-weight:600">Tài chính - ngân hàng</a><small class="d-inline" style="margin-left:5px;color:#929292">- 42 phút trước</small>
+                                <p style="font-size:14px;line-height:20px;color:#5f5f5f;margin-top:10px">VPBank cho biết, vụ cháy chỉ gây hư hại bảng biển phía ngoài trụ sở và không gây thiệt hại về người.</p>
+                            </div>
+                        </div>
+
+                        <div class="row" style="padding-top:25px;padding-bottom:25px;border-bottom: 1px dotted grey">
+                            <div class="col-5">
+                                <img class="borderRadius3px" src="http://cafefcdn.com/zoom/260_162/2018/2/26/photo1519611998000-15196119980011195681758.jpg" style="width:100%" />
+                            </div>
+                            <div class="col-7">
+                                <a href="#" style="font-size:23px;line-height:28px;color:#171717;font-weight:600">Vụ cháy ở VPBank Đồng Hới: Hồ sơ, giấy tờ của khách hàng có ảnh hưởng?</a><br />
+                                <a href="#" class="d-inline" style="font-size:15px;color:#404f5d;font-weight:600">Tài chính - ngân hàng</a><small class="d-inline" style="margin-left:5px;color:#929292">- 42 phút trước</small>
+                                <p style="font-size:14px;line-height:20px;color:#5f5f5f;margin-top:10px">VPBank cho biết, vụ cháy chỉ gây hư hại bảng biển phía ngoài trụ sở và không gây thiệt hại về người.</p>
+                            </div>
+                        </div>
+
+                        <div class="row" style="padding-top:25px;padding-bottom:25px">
+                            <div class="col-5">
+                                <img class="borderRadius3px" src="http://cafefcdn.com/zoom/260_162/2018/2/26/photo1519611998000-15196119980011195681758.jpg" style="width:100%" />
+                            </div>
+                            <div class="col-7">
+                                <a href="#" style="font-size:23px;line-height:28px;color:#171717;font-weight:600">Vụ cháy ở VPBank Đồng Hới: Hồ sơ, giấy tờ của khách hàng có ảnh hưởng?</a><br />
+                                <a href="#" class="d-inline" style="font-size:15px;color:#404f5d;font-weight:600">Tài chính - ngân hàng</a><small class="d-inline" style="margin-left:5px;color:#929292">- 42 phút trước</small>
+                                <p style="font-size:14px;line-height:20px;color:#5f5f5f;margin-top:10px">VPBank cho biết, vụ cháy chỉ gây hư hại bảng biển phía ngoài trụ sở và không gây thiệt hại về người.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="borderBottom"></span>
+                    <div class="#li">
+                        <div class="row" style="margin-top:20px;margin-bottom:20px">
+                            <div class="col-5">
+                                <a href="#"><img src="picture1.PNG" style="width:260px" /></a>
+                            </div>
+                            <div class="col-7">
+                                <ul style="padding-left:0">
+                                    <li>
+                                        <a href="#" style="font-size:23px;color:#1a1a1a"><b>Khách hàng yêu cầu trả lại tiền</b></a>
+                                    </li>
+                                    <li style="border-top: 1px dotted grey;padding:10px 0">
+                                        <a href="#" style="font-size:14px;color:#5c5c5c;line-height:20px">Khách VIP gửi tiền ở Eximbank đã bị mất hơn 300 tỷ thế nào?</a>
+                                    </li>
+                                    <li style="border-top: 1px dotted grey;padding:10px 0">
+                                        <a href="#" style="font-size:14px;color:#5c5c5c;line-height:20px">Khách VIP gửi tiền ở Eximbank đã bị mất hơn 300 tỷ thế nào?</a>
+                                    </li>
+                                    <li style="border-top: 1px dotted grey;padding:10px 0">
+                                        <a href="#" style="font-size:14px;color:#5c5c5c;line-height:20px">Khách VIP gửi tiền ở Eximbank đã bị mất hơn 300 tỷ thế nào?</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <span class="borderBottom"></span>
+                    <div class="li">
+                        <div class="row" style="padding-top:25px;padding-bottom:25px;border-bottom: 1px dotted grey">
+                            <div class="col-5">
+                                <img class="borderRadius3px" src="http://cafefcdn.com/zoom/260_162/2018/2/26/photo1519611998000-15196119980011195681758.jpg" style="width:100%" />
+                            </div>
+                            <div class="col-7">
+                                <a href="#" style="font-size:23px;line-height:28px;color:#171717;font-weight:600">Vụ cháy ở VPBank Đồng Hới: Hồ sơ, giấy tờ của khách hàng có ảnh hưởng?</a><br />
+                                <a href="#" class="d-inline" style="font-size:15px;color:#404f5d;font-weight:600">Tài chính - ngân hàng</a><small class="d-inline" style="margin-left:5px;color:#929292">- 42 phút trước</small>
+                                <p style="font-size:14px;line-height:20px;color:#5f5f5f;margin-top:10px">VPBank cho biết, vụ cháy chỉ gây hư hại bảng biển phía ngoài trụ sở và không gây thiệt hại về người.</p>
+                            </div>
+                        </div>
+
+                        <div class="row" style="padding-top:25px;padding-bottom:25px;border-bottom: 1px dotted grey">
+                            <div class="col-5">
+                                <img class="borderRadius3px" src="http://cafefcdn.com/zoom/260_162/2018/2/26/photo1519611998000-15196119980011195681758.jpg" style="width:100%" />
+                            </div>
+                            <div class="col-7">
+                                <a href="#" style="font-size:23px;line-height:28px;color:#171717;font-weight:600">Vụ cháy ở VPBank Đồng Hới: Hồ sơ, giấy tờ của khách hàng có ảnh hưởng?</a><br />
+                                <a href="#" class="d-inline" style="font-size:15px;color:#404f5d;font-weight:600">Tài chính - ngân hàng</a><small class="d-inline" style="margin-left:5px;color:#929292">- 42 phút trước</small>
+                                <p style="font-size:14px;line-height:20px;color:#5f5f5f;margin-top:10px">VPBank cho biết, vụ cháy chỉ gây hư hại bảng biển phía ngoài trụ sở và không gây thiệt hại về người.</p>
+                            </div>
+                        </div>
+
+                        <div class="row" style="padding-top:25px;padding-bottom:25px;border-bottom: 1px dotted grey">
+                            <div class="col-5">
+                                <img class="borderRadius3px" src="http://cafefcdn.com/zoom/260_162/2018/2/26/photo1519611998000-15196119980011195681758.jpg" style="width:100%" />
+                            </div>
+                            <div class="col-7">
+                                <a href="#" style="font-size:23px;line-height:28px;color:#171717;font-weight:600">Vụ cháy ở VPBank Đồng Hới: Hồ sơ, giấy tờ của khách hàng có ảnh hưởng?</a><br />
+                                <a href="#" class="d-inline" style="font-size:15px;color:#404f5d;font-weight:600">Tài chính - ngân hàng</a><small class="d-inline" style="margin-left:5px;color:#929292">- 42 phút trước</small>
+                                <p style="font-size:14px;line-height:20px;color:#5f5f5f;margin-top:10px">VPBank cho biết, vụ cháy chỉ gây hư hại bảng biển phía ngoài trụ sở và không gây thiệt hại về người.</p>
+                            </div>
+                        </div>
+
+                        <div class="row" style="padding-top:25px;padding-bottom:25px">
+                            <div class="col-5">
+                                <img class="borderRadius3px" src="http://cafefcdn.com/zoom/260_162/2018/2/26/photo1519611998000-15196119980011195681758.jpg" style="width:100%" />
+                            </div>
+                            <div class="col-7">
+                                <a href="#" style="font-size:23px;line-height:28px;color:#171717;font-weight:600">Vụ cháy ở VPBank Đồng Hới: Hồ sơ, giấy tờ của khách hàng có ảnh hưởng?</a><br />
+                                <a href="#" class="d-inline" style="font-size:15px;color:#404f5d;font-weight:600">Tài chính - ngân hàng</a><small class="d-inline" style="margin-left:5px;color:#929292">- 42 phút trước</small>
+                                <p style="font-size:14px;line-height:20px;color:#5f5f5f;margin-top:10px">VPBank cho biết, vụ cháy chỉ gây hư hại bảng biển phía ngoài trụ sở và không gây thiệt hại về người.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ******NOW****** -->
+                <div class="row" style="border-top:1px solid #f2f2f2">
+                    <div class="col-7" style="border-top:1px solid #f2f2f2;border-right:1px solid #f2f2f2;">
+                        <div style="border-top:5px solid #e25354;width:156px;padding:10px 0">
+                            <a href="#" style="font:23px;color:#111"><b>SẢN PHẨM NỔI BẬT</b></a>
+                        </div>
+                        <div style="width:100%;height:230px;background:black;color:white">
+                            <img src="//adi.admicro.vn/zoom/410_230/adt/cpc/adsapp/2018/02/photo-11519614619.jpg" style="width:100%" />
+                            <small style="float:right;margin-top:10px;color:#bbb;font-size:11px">+ 4k Reached<span><small class="borderRadius3px" style="border:1px solid #929292;margin:0 10px;padding:2px 5px">Bất động sản</small></span></small>
+                        </div>
+                        <div style="width:100%;text-align:left;font-size:18px;padding:10px 0">
+                            <b><span><img src="iconHot.png" style="width:40px" /></span>2018: Năm đầy hứa hẹn cho nhà đầu tư nước ngoài rót vốn vào BĐS Việt Nam</b>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-6">
+                                <div style="background:black;color:white;height:160px">
+                                    <img src="//adi.admicro.vn/zoom/190_118/adt/cpc/adsapp/2018/02/img_2-11518435758.jpg" style="width:100%;height:130px" />
+                                    <small style="float:right;margin-top:10px;color:#bbb;font-size:10px">+ 4k Reached<span><small class="borderRadius3px" style="border:1px solid #929292;margin:0 10px;padding:2px 5px">Bất động sản</small></span></small>
+                                </div>
+                                <div style="margin-top:10px">
+                                    <b>Khách hàng Maritime Bank chỉ mất vài giây để thanh toán hóa đơn với mã QR trên ngân hàng di động</b>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div style="background:black;color:white;height:160px">
+                                    <img src="//adi.admicro.vn/zoom/190_118/adt/cpc/adsapp/2018/02/httpc-11518434048.jpg" style="width:100%;height:130px" />
+                                    <small style="float:right;margin-top:10px;color:#bbb;font-size:10px">+ 4k Reached<span><small class="borderRadius3px" style="border:1px solid #929292;margin:0 10px;padding:2px 5px">Bất động sản</small></span></small>
+                                </div>
+                                <div style="margin-top:10px">
+                                    <b><span> <img src="iconNew.png" width="40" /></span>Hateco Apollo ra mắt tòa cuối cùng vị trí mặt đường đẹp nhất dự án</b>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div style="background-color:#162837">
+                            <a href="#"><h5 style="padding:8%;color:white">TIN DOANH NGHIỆP</h5></a>
+                        </div>
+                        <ul style="padding-left:10px">
+                            <li style="border-bottom: 1px dotted grey;padding-bottom:10px">
+                                <a href="#" style="color:black;font-weight:600">Dàn limousine đẳng cấp doanh nhân đồng hành cùng U23</a><br />
+                                <small><span style="margin-right:5px"><img src="iconHot.png" width="30" /></span>+ 0,1M Reached</small>
+                            </li>
+
+                            <li style="border-bottom: 1px dotted grey;padding-bottom:10px">
+                                <a href="#" style="color:black;font-weight:600">Dàn limousine đẳng cấp doanh nhân đồng hành cùng U23</a><br />
+                                <small><span style="margin-right:5px"><img src="iconHot.png" width="30" /></span>+ 0,1M Reached</small>
+                            </li>
+
+                            <li style="border-bottom: 1px dotted grey;padding-bottom:10px">
+                                <a href="#" style="color:black;font-weight:600">Dàn limousine đẳng cấp doanh nhân đồng hành cùng U23</a><br />
+                                <small><span style="margin-right:5px"><img src="iconHot.png" width="30" /></span>+ 0,1M Reached</small>
+                            </li>
+
+                            <li style="border-bottom: 1px dotted grey;padding-bottom:10px">
+                                <a href="#" style="color:black;font-weight:600">Dàn limousine đẳng cấp doanh nhân đồng hành cùng U23</a><br />
+                                <small><span style="margin-right:5px"><img src="iconHot.png" width="30" /></span>+ 0,1M Reached</small>
+                            </li>
+
+                            <li style="border-bottom: 1px dotted grey;padding-bottom:10px">
+                                <a href="#" style="color:black;font-weight:600">Dàn limousine đẳng cấp doanh nhân đồng hành cùng U23</a><br />
+                                <small><span style="margin-right:5px"><img src="iconHot.png" width="30" /></span>+ 0,1M Reached</small>
+                            </li>
+
+                            <li style="border-bottom: 1px dotted grey;padding-bottom:10px">
+                                <a href="#" style="color:black;font-weight:600">Dàn limousine đẳng cấp doanh nhân đồng hành cùng U23</a><br />
+                                <small><span style="margin-right:5px"><img src="iconHot.png" width="30" /></span>+ 0,1M Reached</small>
+                            </li>
+
+
+                        </ul>
+                    </div>
+
+                </div>
+                <div style="text-align:right;margin-bottom:-4px">
+                    <small style="border:1px solid #f2f2f2;padding:5px;background-color:#f8f8f8;color:#bbb;border:none;margin-left:5px">Nội dung được tài trợ</small>
+
+                </div>
+                <div>
+                    <span class="borderBottom"></span>
+                </div>
+
+                <div class="ul2">
+                    <div class="li">
+                        <div class="row" style="padding-top:25px;padding-bottom:25px;border-bottom: 1px dotted grey">
+                            <div class="col-5">
+                                <img class="borderRadius3px" src="http://cafefcdn.com/zoom/260_162/2018/2/26/photo1519611998000-15196119980011195681758.jpg" style="width:100%" />
+                            </div>
+                            <div class="col-7">
+                                <a href="#" style="font-size:23px;line-height:28px;color:#171717;font-weight:600">Vụ cháy ở VPBank Đồng Hới: Hồ sơ, giấy tờ của khách hàng có ảnh hưởng?</a><br />
+                                <a href="#" class="d-inline" style="font-size:15px;color:#404f5d;font-weight:600">Tài chính - ngân hàng</a><small class="d-inline" style="margin-left:5px;color:#929292">- 42 phút trước</small>
+                                <p style="font-size:14px;line-height:20px;color:#5f5f5f;margin-top:10px">VPBank cho biết, vụ cháy chỉ gây hư hại bảng biển phía ngoài trụ sở và không gây thiệt hại về người.</p>
+                            </div>
+                        </div>
+
+                        <div class="row" style="padding-top:25px;padding-bottom:25px;border-bottom: 1px dotted grey">
+                            <div class="col-5">
+                                <img class="borderRadius3px" src="http://cafefcdn.com/zoom/260_162/2018/2/26/photo1519611998000-15196119980011195681758.jpg" style="width:100%" />
+                            </div>
+                            <div class="col-7">
+                                <a href="#" style="font-size:23px;line-height:28px;color:#171717;font-weight:600">Vụ cháy ở VPBank Đồng Hới: Hồ sơ, giấy tờ của khách hàng có ảnh hưởng?</a><br />
+                                <a href="#" class="d-inline" style="font-size:15px;color:#404f5d;font-weight:600">Tài chính - ngân hàng</a><small class="d-inline" style="margin-left:5px;color:#929292">- 42 phút trước</small>
+                                <p style="font-size:14px;line-height:20px;color:#5f5f5f;margin-top:10px">VPBank cho biết, vụ cháy chỉ gây hư hại bảng biển phía ngoài trụ sở và không gây thiệt hại về người.</p>
+                            </div>
+                        </div>
+
+                        <div class="row" style="padding-top:25px;padding-bottom:25px;border-bottom: 1px dotted grey">
+                            <div class="col-5">
+                                <img class="borderRadius3px" src="http://cafefcdn.com/zoom/260_162/2018/2/26/photo1519611998000-15196119980011195681758.jpg" style="width:100%" />
+                            </div>
+                            <div class="col-7">
+                                <a href="#" style="font-size:23px;line-height:28px;color:#171717;font-weight:600">Vụ cháy ở VPBank Đồng Hới: Hồ sơ, giấy tờ của khách hàng có ảnh hưởng?</a><br />
+                                <a href="#" class="d-inline" style="font-size:15px;color:#404f5d;font-weight:600">Tài chính - ngân hàng</a><small class="d-inline" style="margin-left:5px;color:#929292">- 42 phút trước</small>
+                                <p style="font-size:14px;line-height:20px;color:#5f5f5f;margin-top:10px">VPBank cho biết, vụ cháy chỉ gây hư hại bảng biển phía ngoài trụ sở và không gây thiệt hại về người.</p>
+                            </div>
+                        </div>
+
+                        <div class="row" style="padding-top:25px;padding-bottom:25px">
+                            <div class="col-5">
+                                <img class="borderRadius3px" src="http://cafefcdn.com/zoom/260_162/2018/2/26/photo1519611998000-15196119980011195681758.jpg" style="width:100%" />
+                            </div>
+                            <div class="col-7">
+                                <a href="#" style="font-size:23px;line-height:28px;color:#171717;font-weight:600">Vụ cháy ở VPBank Đồng Hới: Hồ sơ, giấy tờ của khách hàng có ảnh hưởng?</a><br />
+                                <a href="#" class="d-inline" style="font-size:15px;color:#404f5d;font-weight:600">Tài chính - ngân hàng</a><small class="d-inline" style="margin-left:5px;color:#929292">- 42 phút trước</small>
+                                <p style="font-size:14px;line-height:20px;color:#5f5f5f;margin-top:10px">VPBank cho biết, vụ cháy chỉ gây hư hại bảng biển phía ngoài trụ sở và không gây thiệt hại về người.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="borderBottom"></span>
+                    <div class="#li">
+                        <div class="row" style="margin-top:20px;margin-bottom:20px">
+                            <div class="col-5">
+                                <a href="#"><img src="picture1.PNG" style="width:260px" /></a>
+                            </div>
+                            <div class="col-7">
+                                <ul style="padding-left:0">
+                                    <li>
+                                        <a href="#" style="font-size:23px;color:#1a1a1a"><b>Khách hàng yêu cầu trả lại tiền</b></a>
+                                    </li>
+                                    <li style="border-top: 1px dotted grey;padding:10px 0">
+                                        <a href="#" style="font-size:14px;color:#5c5c5c;line-height:20px">Khách VIP gửi tiền ở Eximbank đã bị mất hơn 300 tỷ thế nào?</a>
+                                    </li>
+                                    <li style="border-top: 1px dotted grey;padding:10px 0">
+                                        <a href="#" style="font-size:14px;color:#5c5c5c;line-height:20px">Khách VIP gửi tiền ở Eximbank đã bị mất hơn 300 tỷ thế nào?</a>
+                                    </li>
+                                    <li style="border-top: 1px dotted grey;padding:10px 0">
+                                        <a href="#" style="font-size:14px;color:#5c5c5c;line-height:20px">Khách VIP gửi tiền ở Eximbank đã bị mất hơn 300 tỷ thế nào?</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <span class="borderBottom"></span>
+                    <div class="li">
+                        <div class="row" style="padding-top:25px;padding-bottom:25px;border-bottom: 1px dotted grey">
+                            <div class="col-5">
+                                <img class="borderRadius3px" src="http://cafefcdn.com/zoom/260_162/2018/2/26/photo1519611998000-15196119980011195681758.jpg" style="width:100%" />
+                            </div>
+                            <div class="col-7">
+                                <a href="#" style="font-size:23px;line-height:28px;color:#171717;font-weight:600">Vụ cháy ở VPBank Đồng Hới: Hồ sơ, giấy tờ của khách hàng có ảnh hưởng?</a><br />
+                                <a href="#" class="d-inline" style="font-size:15px;color:#404f5d;font-weight:600">Tài chính - ngân hàng</a><small class="d-inline" style="margin-left:5px;color:#929292">- 42 phút trước</small>
+                                <p style="font-size:14px;line-height:20px;color:#5f5f5f;margin-top:10px">VPBank cho biết, vụ cháy chỉ gây hư hại bảng biển phía ngoài trụ sở và không gây thiệt hại về người.</p>
+                            </div>
+                        </div>
+
+                        <div class="row" style="padding-top:25px;padding-bottom:25px;border-bottom: 1px dotted grey">
+                            <div class="col-5">
+                                <img class="borderRadius3px" src="http://cafefcdn.com/zoom/260_162/2018/2/26/photo1519611998000-15196119980011195681758.jpg" style="width:100%" />
+                            </div>
+                            <div class="col-7">
+                                <a href="#" style="font-size:23px;line-height:28px;color:#171717;font-weight:600">Vụ cháy ở VPBank Đồng Hới: Hồ sơ, giấy tờ của khách hàng có ảnh hưởng?</a><br />
+                                <a href="#" class="d-inline" style="font-size:15px;color:#404f5d;font-weight:600">Tài chính - ngân hàng</a><small class="d-inline" style="margin-left:5px;color:#929292">- 42 phút trước</small>
+                                <p style="font-size:14px;line-height:20px;color:#5f5f5f;margin-top:10px">VPBank cho biết, vụ cháy chỉ gây hư hại bảng biển phía ngoài trụ sở và không gây thiệt hại về người.</p>
+                            </div>
+                        </div>
+
+                        <div class="row" style="padding-top:25px;padding-bottom:25px;border-bottom: 1px dotted grey">
+                            <div class="col-5">
+                                <img class="borderRadius3px" src="http://cafefcdn.com/zoom/260_162/2018/2/26/photo1519611998000-15196119980011195681758.jpg" style="width:100%" />
+                            </div>
+                            <div class="col-7">
+                                <a href="#" style="font-size:23px;line-height:28px;color:#171717;font-weight:600">Vụ cháy ở VPBank Đồng Hới: Hồ sơ, giấy tờ của khách hàng có ảnh hưởng?</a><br />
+                                <a href="#" class="d-inline" style="font-size:15px;color:#404f5d;font-weight:600">Tài chính - ngân hàng</a><small class="d-inline" style="margin-left:5px;color:#929292">- 42 phút trước</small>
+                                <p style="font-size:14px;line-height:20px;color:#5f5f5f;margin-top:10px">VPBank cho biết, vụ cháy chỉ gây hư hại bảng biển phía ngoài trụ sở và không gây thiệt hại về người.</p>
+                            </div>
+                        </div>
+
+                        <div class="row" style="padding-top:25px;padding-bottom:25px">
+                            <div class="col-5">
+                                <img class="borderRadius3px" src="http://cafefcdn.com/zoom/260_162/2018/2/26/photo1519611998000-15196119980011195681758.jpg" style="width:100%" />
+                            </div>
+                            <div class="col-7">
+                                <a href="#" style="font-size:23px;line-height:28px;color:#171717;font-weight:600">Vụ cháy ở VPBank Đồng Hới: Hồ sơ, giấy tờ của khách hàng có ảnh hưởng?</a><br />
+                                <a href="#" class="d-inline" style="font-size:15px;color:#404f5d;font-weight:600">Tài chính - ngân hàng</a><small class="d-inline" style="margin-left:5px;color:#929292">- 42 phút trước</small>
+                                <p style="font-size:14px;line-height:20px;color:#5f5f5f;margin-top:10px">VPBank cho biết, vụ cháy chỉ gây hư hại bảng biển phía ngoài trụ sở và không gây thiệt hại về người.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span class="borderBottom"></span>
+                </div>
+
+                <div class="row" style="margin-bottom:20px;margin-top:20px">
+                    <div class="col">
+                        <div class="d-flex justify-content-around align-items-center">
+                            <div class="one-edge-shadow" style="border:1px solid #f2f2f2;margin-right:20px">
+                                <div style="margin:15px">
+                                    <a href="#" style="font-size:19px;color:black;font-weight:700">THỊ TRƯỜNG CHỨNG KHOÁN</a>
+                                </div>
+
+                                <img src="http://cafefcdn.com/zoom/340_210/2018/3/2/photo1519959202430-15199592024301289494829.jpg" style="width:100%" />
+
+                                <ul style="padding:0 10px">
+                                    <li>
+                                        <p style="color:#313131;font-size:16px;margin:10px 15px 0 15px;line-height:23px;font-weight:600">Đưa cổ phần của công ty lỗ cả triệu đô lên đấu giá, trường Đại học Hàng Hải Việt Nam vẫn mong lãi 160%</p>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                            <div class="one-edge-shadow" style="border:1px solid #f2f2f2">
+                                <div style="margin:15px">
+                                    <a href="#" style="font-size:19px;color:black;font-weight:700">THỊ TRƯỜNG CHỨNG KHOÁN</a>
+                                </div>
+
+                                <img src="http://cafefcdn.com/zoom/340_210/2018/3/2/photo1519959202430-15199592024301289494829.jpg" style="width:100%" />
+
+                                <ul style="padding:0 10px">
+                                    <li>
+                                        <p style="color:#313131;font-size:16px;margin:10px 15px 0 15px;line-height:23px;font-weight:600">Đưa cổ phần của công ty lỗ cả triệu đô lên đấu giá, trường Đại học Hàng Hải Việt Nam vẫn mong lãi 160%</p>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row" style="margin-bottom:20px;margin-top:20px">
+                    <div class="col">
+                        <div class="d-flex justify-content-around align-items-center">
+                            <div class="one-edge-shadow" style="border:1px solid #f2f2f2;margin-right:20px">
+                                <div style="margin:15px">
+                                    <a href="#" style="font-size:19px;color:black;font-weight:700">THỊ TRƯỜNG CHỨNG KHOÁN</a>
+                                </div>
+
+                                <img src="http://cafefcdn.com/zoom/340_210/2018/3/2/photo1519959202430-15199592024301289494829.jpg" style="width:100%" />
+
+                                <ul style="padding:0 10px">
+                                    <li>
+                                        <p style="color:#313131;font-size:16px;margin:10px 15px 0 15px;line-height:23px;font-weight:600">Đưa cổ phần của công ty lỗ cả triệu đô lên đấu giá, trường Đại học Hàng Hải Việt Nam vẫn mong lãi 160%</p>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                            <div class="one-edge-shadow" style="border:1px solid #f2f2f2">
+                                <div style="margin:15px">
+                                    <a href="#" style="font-size:19px;color:black;font-weight:700">THỊ TRƯỜNG CHỨNG KHOÁN</a>
+                                </div>
+
+                                <img src="http://cafefcdn.com/zoom/340_210/2018/3/2/photo1519959202430-15199592024301289494829.jpg" style="width:100%" />
+
+                                <ul style="padding:0 10px">
+                                    <li>
+                                        <p style="color:#313131;font-size:16px;margin:10px 15px 0 15px;line-height:23px;font-weight:600">Đưa cổ phần của công ty lỗ cả triệu đô lên đấu giá, trường Đại học Hàng Hải Việt Nam vẫn mong lãi 160%</p>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row" style="margin-bottom:20px;margin-top:20px">
+                    <div class="col">
+                        <div class="d-flex justify-content-around align-items-center">
+                            <div class="one-edge-shadow" style="border:1px solid #f2f2f2;margin-right:20px">
+                                <div style="margin:15px">
+                                    <a href="#" style="font-size:19px;color:black;font-weight:700">THỊ TRƯỜNG CHỨNG KHOÁN</a>
+                                </div>
+
+                                <img src="http://cafefcdn.com/zoom/340_210/2018/3/2/photo1519959202430-15199592024301289494829.jpg" style="width:100%" />
+
+                                <ul style="padding:0 10px">
+                                    <li>
+                                        <p style="color:#313131;font-size:16px;margin:10px 15px 0 15px;line-height:23px;font-weight:600">Đưa cổ phần của công ty lỗ cả triệu đô lên đấu giá, trường Đại học Hàng Hải Việt Nam vẫn mong lãi 160%</p>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                            <div class="one-edge-shadow" style="border:1px solid #f2f2f2">
+                                <div style="margin:15px">
+                                    <a href="#" style="font-size:19px;color:black;font-weight:700">THỊ TRƯỜNG CHỨNG KHOÁN</a>
+                                </div>
+
+                                <img src="http://cafefcdn.com/zoom/340_210/2018/3/2/photo1519959202430-15199592024301289494829.jpg" style="width:100%" />
+
+                                <ul style="padding:0 10px">
+                                    <li>
+                                        <p style="color:#313131;font-size:16px;margin:10px 15px 0 15px;line-height:23px;font-weight:600">Đưa cổ phần của công ty lỗ cả triệu đô lên đấu giá, trường Đại học Hàng Hải Việt Nam vẫn mong lãi 160%</p>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row" style="margin-bottom:20px;margin-top:20px">
+                    <div class="col">
+                        <div class="d-flex justify-content-around align-items-center">
+                            <div class="one-edge-shadow" style="border:1px solid #f2f2f2;margin-right:20px">
+                                <div style="margin:15px">
+                                    <a href="#" style="font-size:19px;color:black;font-weight:700">THỊ TRƯỜNG CHỨNG KHOÁN</a>
+                                </div>
+
+                                <img src="http://cafefcdn.com/zoom/340_210/2018/3/2/photo1519959202430-15199592024301289494829.jpg" style="width:100%" />
+
+                                <ul style="padding:0 10px">
+                                    <li>
+                                        <p style="color:#313131;font-size:16px;margin:10px 15px 0 15px;line-height:23px;font-weight:600">Đưa cổ phần của công ty lỗ cả triệu đô lên đấu giá, trường Đại học Hàng Hải Việt Nam vẫn mong lãi 160%</p>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                            <div class="one-edge-shadow" style="border:1px solid #f2f2f2">
+                                <div style="margin:15px">
+                                    <a href="#" style="font-size:19px;color:black;font-weight:700">THỊ TRƯỜNG CHỨNG KHOÁN</a>
+                                </div>
+
+                                <img src="http://cafefcdn.com/zoom/340_210/2018/3/2/photo1519959202430-15199592024301289494829.jpg" style="width:100%" />
+
+                                <ul style="padding:0 10px">
+                                    <li>
+                                        <p style="color:#313131;font-size:16px;margin:10px 15px 0 15px;line-height:23px;font-weight:600">Đưa cổ phần của công ty lỗ cả triệu đô lên đấu giá, trường Đại học Hàng Hải Việt Nam vẫn mong lãi 160%</p>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row" style="margin-bottom:20px;margin-top:20px">
+                    <div class="col">
+                        <div class="d-flex justify-content-around align-items-center">
+                            <div class="one-edge-shadow" style="border:1px solid #f2f2f2;margin-right:20px">
+                                <div style="margin:15px">
+                                    <a href="#" style="font-size:19px;color:black;font-weight:700">THỊ TRƯỜNG CHỨNG KHOÁN</a>
+                                </div>
+
+                                <img src="http://cafefcdn.com/zoom/340_210/2018/3/2/photo1519959202430-15199592024301289494829.jpg" style="width:100%" />
+
+                                <ul style="padding:0 10px">
+                                    <li>
+                                        <p style="color:#313131;font-size:16px;margin:10px 15px 0 15px;line-height:23px;font-weight:600">Đưa cổ phần của công ty lỗ cả triệu đô lên đấu giá, trường Đại học Hàng Hải Việt Nam vẫn mong lãi 160%</p>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                            <div class="one-edge-shadow" style="border:1px solid #f2f2f2">
+                                <div style="margin:15px">
+                                    <a href="#" style="font-size:19px;color:black;font-weight:700">THỊ TRƯỜNG CHỨNG KHOÁN</a>
+                                </div>
+
+                                <img src="http://cafefcdn.com/zoom/340_210/2018/3/2/photo1519959202430-15199592024301289494829.jpg" style="width:100%" />
+
+                                <ul style="padding:0 10px">
+                                    <li>
+                                        <p style="color:#313131;font-size:16px;margin:10px 15px 0 15px;line-height:23px;font-weight:600">Đưa cổ phần của công ty lỗ cả triệu đô lên đấu giá, trường Đại học Hàng Hải Việt Nam vẫn mong lãi 160%</p>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+                                    <li style="border-top:1px dotted #f2f2f2;margin-left:15px;margin-top:10px;padding-top:10px;padding-bottom:10px;font-size:14px;line-height:20px">
+                                        <a href="#" style="color:black">Các hãng kẹo Nhật "đổ bộ" thị trường Đông Nam Á</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- =! trên -->
+                <div class="row" style="margin-bottom:20px;margin-top:20px">
+                    <div class="col">
+                        <div class="d-flex justify-content-around align-items-center">
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-4">
+                <form style="background-color:#aeb4c0;padding:10px;margin-bottom:20px;font-size:13px">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="" id="myMessage">
+                        <div class="input-group-append">
+                            <button class="btn" style="background-color:#575e6b" type="button"><span><img src="iconSearch.png" width="30" /></span>Tìm kiếm</button>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input radio-buttons" value="Gõ mã CK hoặc tên công ty." checked>
+                            <label class="custom-control-label" for="customRadio1">Công ty</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input radio-buttons" value="Tìm kiếm tin tức...">
+                            <label class="custom-control-label" for="customRadio2">Tin tức</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input radio-buttons" value="Gõ họ tên...">
+                            <label class="custom-control-label" for="customRadio3">Lãnh đạo</label>
+                        </div>
+                    </div>
+                    <script>
+                        $("#myMessage").attr('placeholder', $('.radio-buttons:checked').val())
+                        $(".radio-buttons").click(function () {
+                            $("#myMessage").attr('placeholder', $(this).val())
+                        });
+                    </script>
+
+                </form>
+
+                <iframe src="https://adi.admicro.vn/adt/banners/nam2015/4043/min_html5/linhtranthuy/2018_02_09/300x385_VIB(2)/300x385_VIB/300x385_VIB.html?url=%2F%2Flg1.logging.admicro.vn%2Fcpx%3Fcov%3D1%26tpn%3D1%26dmn%3Dhttp%253A%252F%252Fcafef.vn%252F%26cmpg%3D1294605%26items%3D546341%26zid%3D97%26cid%3D-1%26lsn%3D1519803404824%26ce%3D1%26lc%3D5%26cr%3D1517127340%26ui%3D601712734020427273%26re%3Dhttp%253A%252F%252Fvibcampaign.vib.com.vn%252Ftien-gui-vib%253Futm_source%253DAdMicro%2526utm_medium%253DCPD%2526utm_campaign%253DVIB&amp;admid=ads_zone97_banner546341" width="350" frameborder="0" scrolling="no" height="385"></iframe>
+                <iframe src="https://adi.admicro.vn/adt/banners/nam2015/4043/min_html5/doanoanh/2018_01_31/300x250_vistaverde/300x250_vistaverde/300x250_vistaverde.html?url=%2F%2Flg1.logging.admicro.vn%2Fadn%3Fdmn%3Dhttp%253A%2F%2Fcafef.vn%2F%26lsn%3D1519806306747%26ce%3D1%26lc%3D5%26cr%3D1517127340%26ui%3D601712734020427273%26ii%3D226913%26bi%3D0%26cmpg%3D22152%26items%3D70020%26zid%3D478582%26cid%3D-1%26pt%3Dadmt%26%26tp%3D12%26tpn%3D4%26cov%3D1%26pr%3D7102711833%26adc_cpa%3D1%26re%3Dhttp%253A%252F%252Fvistaverde.com.vn%252F%253Futm_source%253Dadmicro_admatic%2526utm_campaign%253Dadmatic%2526utm_content%253Dcafef.vn" width="350" height="250" frameborder="0" scrolling="no" style="margin-top:20px"></iframe>
+
+                <div class="linkBorder" style="border-color:#bcd8eb">
+                    <div class="tab" style="background:linear-gradient(to bottom,#ddebf4,#fff);">
+                        <button class="tablinks" id="defaultOpen" style="font-size:15px" onclick="openCity(event, 'Việt Nam')">Việt Nam</button>
+                        <button class="tablinks" style="font-size:15px" onclick="openCity(event, 'Thế giới')">Thế giới</button>
+                        <button class="tablinks" style="font-size:15px" onclick="openCity(event, 'Hàng hóa')">Hàng hóa</button>
+                    </div>
+
+                    <div id="Việt Nam" class="tabcontent">
+                        <div>
+                            <iframe style="width:100%" height="215" scrolling="no" frameborder="0" id="iframeGiaVang" src="http://giavang.doji.vn/sites/default/files/bieudo/tabs.html?t=0.24740825654898657"></iframe>
+                        </div>
+
+                        <div style="margin:20px 10px;font-size:14px">
+                            <table class="tableNgoaiTe" border="1" style="width:100%;background-color:#f0f7fb">
+                                <thead>
+                                    <tr>
+                                        <th>Ngoại tệ</th>
+                                        <th>Giá mua</th>
+                                        <th>Giá bán</th>
+                                        <th>Thay đổi</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>USD</td>
+                                        <td>22.695</td>
+                                        <td>22.785</td>
+                                        <td style="color:#d7be40">(0%)</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>THB</td>
+                                        <td>682.52</td>
+                                        <td>737.54</td>
+                                        <td style="color:#d7be40">(0%)</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>SGD</td>
+                                        <td>17,037</td>
+                                        <td>17,271</td>
+                                        <td style="color:#d7be40">(0%)</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>SEK</td>
+                                        <td>2,760.50</td>
+                                        <td>2,876.50</td>
+                                        <td style="color:#d7be40">(0%)</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>SAR</td>
+                                        <td>6,134</td>
+                                        <td>6,248</td>
+                                        <td style="color:#d7be40">(0%)</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>RUB</td>
+                                        <td>334</td>
+                                        <td>446</td>
+                                        <td style="color:#d7be40">(0%)</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>NZD</td>
+                                        <td>16,252</td>
+                                        <td>16,698</td>
+                                        <td style="color:#d7be40">(0%)</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>NOK</td>
+                                        <td>2,898</td>
+                                        <td>3,010</td>
+                                        <td style="color:#d7be40">(0%)</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>MYR</td>
+                                        <td>5,232</td>
+                                        <td>5,342</td>
+                                        <td style="color:#d7be40">(0%)</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>KWD</td>
+                                        <td>76,480</td>
+                                        <td>77,728</td>
+                                        <td style="color:#d7be40">(0%)</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>KRW</td>
+                                        <td>20.50</td>
+                                        <td>21.72</td>
+                                        <td style="color:#d7be40">(0%)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div style="text-align:center">
+                            <span style="font-size:14px">Hợp tác với</span>
+                            <a href="#" style="margin:0 10px"><img src="imgDOJI.png" style="width:60px" /></a>
+                            <a href="#"><img src="imgTPBank.png" style="width:70px" /></a>
+                        </div>
+                    </div>
+
+                    <div id="Thế giới" class="tabcontent" style="padding:20px">
+                        <table class="tableNgoaiTe" style="font-size:14px;width:100%;background-color:#f0f7fb">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Index</th>
+                                    <th>Thay đổi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>US Dollar Index</td>
+                                    <td>90.7</td>
+                                    <td style="color:green">+0.1 (+0.1%)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>DowJones</td>
+                                    <td>20,940.5</td>
+                                    <td style="color:red">-40.8 (-0.2%)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Nasdaq</td>
+                                    <td>6,047.6</td>
+                                    <td style="color:red">-1.3 (0.0%)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>S&P 500</td>
+                                    <td>2,384.2</td>
+                                    <td style="color:red">-4.6 (-0.2%)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>FTSE 100</td>
+                                    <td>7,203.9</td>
+                                    <td style="color:red">-33.2 (-0.5%)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>DAX</td>
+                                    <td>12,438.0</td>
+                                    <td style="color:red">-5.8 (0.0%)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Nikkei 225</td>
+                                    <td>19,283.8</td>
+                                    <td style="color:green">+87.1 (+0.5%)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Hang Seng</td>
+                                    <td>24,615.1</td>
+                                    <td style="color:red">-83.4 (-0.3%)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Strait Times</td>
+                                    <td>3,175.4</td>
+                                    <td style="color:green">+4.1 (+0.1%)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div id="Hàng hóa" class="tabcontent" style="padding:20px">
+                        <table class="tableNgoaiTe" style="font-size:14px;width:100%;background-color:#f0f7fb">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Giá USD</th>
+                                    <th>Thay đổi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Crude Oil</td>
+                                    <td>61.7</td>
+                                    <td style="color:green">+0.1 (+0.1%)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Natural Gas</td>
+                                    <td>2.7</td>
+                                    <td>0.0 (0.0%)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Gold</td>
+                                    <td>1,316.5</td>
+                                    <td style="color:red">-1.4 (-0.1%)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>S&P 500</td>
+                                    <td>2,384.2</td>
+                                    <td style="color:red">-4.6 (-0.2%)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Copper</td>
+                                    <td>3.1</td>
+                                    <td style="color:green">+0.0 (+0.3%)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Silver</td>
+                                    <td>16.4</td>
+                                    <td style="color:red">0.0 (-0.1%)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Corn</td>
+                                    <td>381.8</td>
+                                    <td style="color:red">-0.3 (-0.1%)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Sugar</td>
+                                    <td>13.4</td>
+                                    <td>0.0 (0.0%)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Coffee</td>
+                                    <td>122.0</td>
+                                    <td>0.0 (0.0%)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Cotton</td>
+                                    <td>82.7</td>
+                                    <td style="color:red">-0.3 (-0.3%)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Rough rice</td>
+                                    <td>12.5</td>
+                                    <td style="color:red">0.0 (-0.1%)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Wheat</td>
+                                    <td>496.8</td>
+                                    <td style="color:green">+1.8 (+0.4%)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Soybean</td>
+                                    <td>1,056.8</td>
+                                    <td style="color:green">+1.3 (+0.1%)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Ethanol</td>
+                                    <td>2.4</td>
+                                    <td>0.0 (0.0%)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <script>
+                        function openCity(evt, cityName) {
+                            var i, tabcontent, tablinks;
+                            tabcontent = document.getElementsByClassName("tabcontent");
+                            for (i = 0; i < tabcontent.length; i++) {
+                                tabcontent[i].style.display = "none";
+                            }
+                            tablinks = document.getElementsByClassName("tablinks");
+                            for (i = 0; i < tablinks.length; i++) {
+                                tablinks[i].className = tablinks[i].className.replace(" active", "");
+                            }
+                            document.getElementById(cityName).style.display = "block";
+                            evt.currentTarget.className += " active";
+                        }
+                        document.getElementById("defaultOpen").click();
+                    </script>
+
+                </div>
+
+                <div class="linkBorder" style="border-color:#bcd8eb;background-color:#f0f7fb;margin-top:20px">
+                    <div class="d-flex align-items-center" style="margin-top:10px">
+                        <span style="margin-right:10px"><img src="iconCalendar.png" width="30" /></span>
+                        <b>LỊCH SỰ KIỆN</b>
+                    </div>
+                    <div style="background-color:#f0f7fb">
+                        <div class="form-elegant2 scrollbar-light-blue" style="font-size:12px;margin-top:10px">
+                            <div class="01/03">
+                                <div style="font-size:14px;background-color:#deebf4">
+                                    <div style="margin-left:10px"> <b>01/03</b></div>
+                                </div>
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <span style="margin-right:10px;color:#808080;font-weight:700">GLW</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;padding-left:15px">
+                                        Tổ chức đại hội đồng cổ đông thường niên năm 2018
+                                    </span>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <span style="margin-right:10px;color:#808080;font-weight:700">GLW</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;padding-left:15px">
+                                        Tổ chức đại hội đồng cổ đông thường niên năm 2018
+                                    </span>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <span style="margin-right:10px;color:#808080;font-weight:700">GLW</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;padding-left:15px">
+                                        Tổ chức đại hội đồng cổ đông thường niên năm 2018
+                                    </span>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <span style="margin-right:10px;color:#808080;font-weight:700">GLW</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;padding-left:15px">
+                                        Tổ chức đại hội đồng cổ đông thường niên năm 2018
+                                    </span>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <span style="margin-right:10px;color:#808080;font-weight:700">GLW</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;padding-left:15px">
+                                        Tổ chức đại hội đồng cổ đông thường niên năm 2018
+                                    </span>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <span style="margin-right:10px;color:#808080;font-weight:700">GLW</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;padding-left:15px">
+                                        Tổ chức đại hội đồng cổ đông thường niên năm 2018
+                                    </span>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <span style="margin-right:10px;color:#808080;font-weight:700">GLW</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;padding-left:15px">
+                                        Tổ chức đại hội đồng cổ đông thường niên năm 2018
+                                    </span>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <span style="margin-right:10px;color:#808080;font-weight:700">GLW</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;padding-left:15px">
+                                        Tổ chức đại hội đồng cổ đông thường niên năm 2018
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="02/03">
+                                <div style="font-size:14px;background-color:#deebf4">
+                                    <div style="margin-left:10px"> <b>02/03</b></div>
+                                </div>
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <span style="margin-right:10px;color:#808080;font-weight:700">GLW</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;padding-left:15px">
+                                        Tổ chức đại hội đồng cổ đông thường niên năm 2018
+                                    </span>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <span style="margin-right:10px;color:#808080;font-weight:700">GLW</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;padding-left:15px">
+                                        Tổ chức đại hội đồng cổ đông thường niên năm 2018
+                                    </span>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <span style="margin-right:10px;color:#808080;font-weight:700">GLW</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;padding-left:15px">
+                                        Tổ chức đại hội đồng cổ đông thường niên năm 2018
+                                    </span>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <span style="margin-right:10px;color:#808080;font-weight:700">GLW</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;padding-left:15px">
+                                        Tổ chức đại hội đồng cổ đông thường niên năm 2018
+                                    </span>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <span style="margin-right:10px;color:#808080;font-weight:700">GLW</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;padding-left:15px">
+                                        Tổ chức đại hội đồng cổ đông thường niên năm 2018
+                                    </span>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <span style="margin-right:10px;color:#808080;font-weight:700">GLW</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;padding-left:15px">
+                                        Tổ chức đại hội đồng cổ đông thường niên năm 2018
+                                    </span>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <span style="margin-right:10px;color:#808080;font-weight:700">GLW</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;padding-left:15px">
+                                        Tổ chức đại hội đồng cổ đông thường niên năm 2018
+                                    </span>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <span style="margin-right:10px;color:#808080;font-weight:700">GLW</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;padding-left:15px">
+                                        Tổ chức đại hội đồng cổ đông thường niên năm 2018
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="05/03">
+                                <div style="font-size:14px;background-color:#deebf4">
+                                    <div style="margin-left:10px"> <b>05/03</b></div>
+                                </div>
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <span style="margin-right:10px;color:#808080;font-weight:700">GLW</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;padding-left:15px">
+                                        Tổ chức đại hội đồng cổ đông thường niên năm 2018
+                                    </span>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <span style="margin-right:10px;color:#808080;font-weight:700">GLW</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;padding-left:15px">
+                                        Tổ chức đại hội đồng cổ đông thường niên năm 2018
+                                    </span>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <span style="margin-right:10px;color:#808080;font-weight:700">GLW</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;padding-left:15px">
+                                        Tổ chức đại hội đồng cổ đông thường niên năm 2018
+                                    </span>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <span style="margin-right:10px;color:#808080;font-weight:700">GLW</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;padding-left:15px">
+                                        Tổ chức đại hội đồng cổ đông thường niên năm 2018
+                                    </span>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <span style="margin-right:10px;color:#808080;font-weight:700">GLW</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;padding-left:15px">
+                                        Tổ chức đại hội đồng cổ đông thường niên năm 2018
+                                    </span>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <span style="margin-right:10px;color:#808080;font-weight:700">GLW</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;padding-left:15px">
+                                        Tổ chức đại hội đồng cổ đông thường niên năm 2018
+                                    </span>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <span style="margin-right:10px;color:#808080;font-weight:700">GLW</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;padding-left:15px">
+                                        Tổ chức đại hội đồng cổ đông thường niên năm 2018
+                                    </span>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <span style="margin-right:10px;color:#808080;font-weight:700">GLW</span>
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;padding-left:15px">
+                                        Tổ chức đại hội đồng cổ đông thường niên năm 2018
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="linkBorder" style="border-color:#bcd8eb;background-color:#f0f7fb;margin-top:20px;margin-bottom:20px">
+                    <div style="text-align:center">
+                        <a href="#" style="color:black"><b style="border-bottom:2px solid #004E92;padding-bottom:10px">TIN TỨC DOANH NGHIỆP NIÊM YẾT</b></a>
+                    </div>
+
+                    <div style="background-color:#f0f7fb">
+                        <div class="form-elegant2 scrollbar-light-blue" style="font-size:12px;margin-top:10px">
+                            <div>
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <div>
+                                        <span style="font-size:13px;line-height:18px;color:#808080">09:58</span>
+                                        <span style="margin-right:10px;color:#808080;font-weight:700">CCL</span>
+                                    </div>
+
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;border-right:1px solid grey;padding-left:15px">
+                                        <a href="#" style="color:#2467a2">Tổ chức đại hội đồng cổ đông thường niên năm 2018</a>
+                                    </span>
+                                    <div style="padding-left:20px">
+                                        <span style="font-size:13px;line-height:17px;color:#808080;font-weight:bold">4.3</span><br />
+                                        <span style="font-size:13px;line-height:17px;color:#990000;font-weight:bold">-0.1</span>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <div>
+                                        <span style="font-size:13px;line-height:18px;color:#808080">09:58</span>
+                                        <span style="margin-right:10px;color:#808080;font-weight:700">CCL</span>
+                                    </div>
+
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;border-right:1px solid grey;padding-left:15px">
+                                        <a href="#" style="color:#2467a2">Tổ chức đại hội đồng cổ đông thường niên năm 2018</a>
+                                    </span>
+                                    <div style="padding-left:20px">
+                                        <span style="font-size:13px;line-height:17px;color:#808080;font-weight:bold">4.3</span><br />
+                                        <span style="font-size:13px;line-height:17px;color:#990000;font-weight:bold">-0.1</span>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <div>
+                                        <span style="font-size:13px;line-height:18px;color:#808080">09:58</span>
+                                        <span style="margin-right:10px;color:#808080;font-weight:700">CCL</span>
+                                    </div>
+
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;border-right:1px solid grey;padding-left:15px">
+                                        <a href="#" style="color:#2467a2">Tổ chức đại hội đồng cổ đông thường niên năm 2018</a>
+                                    </span>
+                                    <div style="padding-left:20px">
+                                        <span style="font-size:13px;line-height:17px;color:#808080;font-weight:bold">4.3</span><br />
+                                        <span style="font-size:13px;line-height:17px;color:#990000;font-weight:bold">-0.1</span>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <div>
+                                        <span style="font-size:13px;line-height:18px;color:#808080">09:58</span>
+                                        <span style="margin-right:10px;color:#808080;font-weight:700">CCL</span>
+                                    </div>
+
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;border-right:1px solid grey;padding-left:15px">
+                                        <a href="#" style="color:#2467a2">Tổ chức đại hội đồng cổ đông thường niên năm 2018</a>
+                                    </span>
+                                    <div style="padding-left:20px">
+                                        <span style="font-size:13px;line-height:17px;color:#808080;font-weight:bold">4.3</span><br />
+                                        <span style="font-size:13px;line-height:17px;color:#990000;font-weight:bold">-0.1</span>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <div>
+                                        <span style="font-size:13px;line-height:18px;color:#808080">09:58</span>
+                                        <span style="margin-right:10px;color:#808080;font-weight:700">CCL</span>
+                                    </div>
+
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;border-right:1px solid grey;padding-left:15px">
+                                        <a href="#" style="color:#2467a2">Tổ chức đại hội đồng cổ đông thường niên năm 2018</a>
+                                    </span>
+                                    <div style="padding-left:20px">
+                                        <span style="font-size:13px;line-height:17px;color:#808080;font-weight:bold">4.3</span><br />
+                                        <span style="font-size:13px;line-height:17px;color:#990000;font-weight:bold">-0.1</span>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <div>
+                                        <span style="font-size:13px;line-height:18px;color:#808080">09:58</span>
+                                        <span style="margin-right:10px;color:#808080;font-weight:700">CCL</span>
+                                    </div>
+
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;border-right:1px solid grey;padding-left:15px">
+                                        <a href="#" style="color:#2467a2">Tổ chức đại hội đồng cổ đông thường niên năm 2018</a>
+                                    </span>
+                                    <div style="padding-left:20px">
+                                        <span style="font-size:13px;line-height:17px;color:#808080;font-weight:bold">4.3</span><br />
+                                        <span style="font-size:13px;line-height:17px;color:#990000;font-weight:bold">-0.1</span>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <div>
+                                        <span style="font-size:13px;line-height:18px;color:#808080">09:58</span>
+                                        <span style="margin-right:10px;color:#808080;font-weight:700">CCL</span>
+                                    </div>
+
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;border-right:1px solid grey;padding-left:15px">
+                                        <a href="#" style="color:#2467a2">Tổ chức đại hội đồng cổ đông thường niên năm 2018</a>
+                                    </span>
+                                    <div style="padding-left:20px">
+                                        <span style="font-size:13px;line-height:17px;color:#808080;font-weight:bold">4.3</span><br />
+                                        <span style="font-size:13px;line-height:17px;color:#990000;font-weight:bold">-0.1</span>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <div>
+                                        <span style="font-size:13px;line-height:18px;color:#808080">09:58</span>
+                                        <span style="margin-right:10px;color:#808080;font-weight:700">CCL</span>
+                                    </div>
+
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;border-right:1px solid grey;padding-left:15px">
+                                        <a href="#" style="color:#2467a2">Tổ chức đại hội đồng cổ đông thường niên năm 2018</a>
+                                    </span>
+                                    <div style="padding-left:20px">
+                                        <span style="font-size:13px;line-height:17px;color:#808080;font-weight:bold">4.3</span><br />
+                                        <span style="font-size:13px;line-height:17px;color:#990000;font-weight:bold">-0.1</span>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex justify-content-start align-items-center" style="border-bottom:1px dotted grey;padding-bottom:10px;margin-bottom:10px;margin-left:10px;margin-top:10px">
+                                    <div>
+                                        <span style="font-size:13px;line-height:18px;color:#808080">09:58</span>
+                                        <span style="margin-right:10px;color:#808080;font-weight:700">CCL</span>
+                                    </div>
+
+                                    <span class="TinMoiLi ml-auto" style="border-left:1px solid grey;border-right:1px solid grey;padding-left:15px">
+                                        <a href="#" style="color:#2467a2">Tổ chức đại hội đồng cổ đông thường niên năm 2018</a>
+                                    </span>
+                                    <div style="padding-left:20px">
+                                        <span style="font-size:13px;line-height:17px;color:#808080;font-weight:bold">4.3</span><br />
+                                        <span style="font-size:13px;line-height:17px;color:#990000;font-weight:bold">-0.1</span>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="linkBorder" style="border-color:#bcd8eb;background-color:#f0f7fb;margin-top:20px;margin-bottom:20px">
+                    <div style="color:white;background-color:#00aaad;padding:10px">
+                        <b>Lãi suất chứng chỉ tiền gửi</b>
+                    </div>
+                    <table class="laiSuat table">
+                        <thead>
+                            <tr>
+                                <th rowspan="2" style="border-color:#f0f7fb">Kỳ hạn (tháng)</th>
+                                <th colspan="4" style="border-color:#f0f7fb">Lãi suất (%/năm)</th>
+                            </tr>
+                            <tr>
+                                <td>Cuối kỳ</td>
+                                <td>Hàng quý</td>
+                                <td>Hàng tháng</td>
+                                <td>Trước hạn</td>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <th style="border-top:1px solid lightblue !important">18</th>
+                                <td>7.40</td>
+                                <td>7.08</td>
+                                <td>7.04</td>
+                                <td>6.66</td>
+                            </tr>
+
+                            <tr>
+                                <th>24</th>
+                                <td>7.40</td>
+                                <td>6.69</td>
+                                <td>6.92</td>
+                                <td>6.45</td>
+                            </tr>
+
+                            <tr>
+                                <th>36</th>
+                                <td>7.40</td>
+                                <td>6.74</td>
+                                <td>6.70</td>
+                                <td>6.06</td>
+                            </tr>
+
+                            <tr>
+                                <th>48</th>
+                                <td>7.40</td>
+                                <td>6.53</td>
+                                <td>6.50</td>
+                                <td>5.71</td>
+                            </tr>
+
+                            <tr>
+                                <th>60</th>
+                                <td>7.40</td>
+                                <td>6.35</td>
+                                <td>6.31</td>
+                                <td>5.40</td>
+                            </tr>
+                            <tr style="background-color:white">
+                                <td colspan="5" style="text-align:right">
+                                    <span> <a href="#" style="color:#919191">Tài trợ bởi</a></span>
+                                    <span><img src="imgABBBank.png" style="width:100px" /></span>
+
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- iframe -->
+                <iframe src="https://adi.admicro.vn/adt/banners/nam2015/4043/min_html5/lanphamthi/2018_02_28/Snecher_300x600/Snecher_300x600/Snecher_300x600.html?url=%2F%2Flg1.logging.admicro.vn%2Fadn%3Fdmn%3Dhttp%253A%2F%2Fcafef.vn%2F%26lsn%3D1519882365905%26ce%3D1%26lc%3D5%26cr%3D1517127340%26ui%3D601712734020427273%26ii%3D780454480%26bi%3D0%26cmpg%3D28249%26items%3D98034%26zid%3D10996%26cid%3D-1%26tp%3D11%26tpn%3D4%26cov%3D1%26pr%3D9814573642%26adc_cpa%3D1%26re%3Dhttps%253A%252F%252Fwww.facebook.com%252Fvtecfashion%252Fposts%252F1193929497404942&amp;admid=adnzone_10996_0_98034" width="300" height="600" frameborder="0" scrolling="no"></iframe>
+                <div id="sidebarAnchor"></div>
+                <div  id="sidebar">
+                    <iframe src="https://adi.admicro.vn/adt/banners/nam2015/4043/min_html5/doanoanh/2018_01_25/300x600_adamkhoo/300x600_adamkhoo/300x600_adamkhoo.html?url=%2F%2Flg1.logging.admicro.vn%2Fadn%3Fdmn%3Dhttp%253A%2F%2Fcafef.vn%2F%26lsn%3D1519882365905%26ce%3D1%26lc%3D5%26cr%3D1517127340%26ui%3D601712734020427273%26ii%3D1632210102%26bi%3D0%26cmpg%3D28240%26items%3D98009%26zid%3D23371%26cid%3D-1%26tp%3D11%26tpn%3D4%26cov%3D1%26pr%3D9862190396%26adc_cpa%3D1%26re%3Dhttp%253A%252F%252Fssmm.adamkhooeducation.com.vn%252F%253Fsource%253Dadx600&amp;admid=adnzone_23371_0_98009" width="300" height="600" frameborder="0" scrolling="no" style="margin-top:20px"></iframe>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="Video" style="background-color:#101c28;width:100%">
+            <div class="container">
+                <div class="row" style="background-color:#101c28">
+                    <div class="col">
+                        <div class="row d-flex justify-content-end" style="border-bottom:1px solid #0b5384;background-color:#101c28;margin-bottom:20px">
+                            <div class="mr-auto">
+                                <a href="#"><span style="color:white;font-size:xx-large"><img src="iconPlayVideo.png" width="50" />VIDEO</span></a>
+                            </div>
+                            <div>
+                                <span style="color:white">1/5</span>
+                                <button class="btn btn-secondary" style="margin:0 20px"><img src="iconArrowUp.png" width="30" /></button>
+                                <button class="btn btn-secondary"><img src="iconArrowDown.png" width="30" /></button>
+                            </div>
+                        </div>
+                        <div class="row" style="background-color:#101c28;margin-bottom:50px">
+                            <div class="col-7">
+                                <div id="video">
+                                    <iframe width="600" height="338" src="https://vcplayer.mediacdn.vn/1.1/?_site=cafef&amp;vid=cafef2/ut2ntormba1of3-mz-frmy8dl5ltjf/2018/02/25/plugin-300-ty-final-1519526360592-347f9.mp4&amp;_info=1ea829da20ea43da8fcf2cbede283155&amp;_listsuggest=http://online.cafef.vn/Handlers/Video/GetTopVideoByKeyVideo.ashx?vid=15850&amp;mute=true&amp;vtype=4&amp;playType=0&amp;_admParamTvc=0;1;2;3&amp;_listsuggest=http://online1.cafef.vn/Handlers/Video/GetTopVideoByKeyVideo.ashx?vid=15850&amp;postroll=true&amp;replay=true&amp;nonVol=true&amp;volume=0.6&amp;boxVideoID=ifVideo-15850&amp;nopre=true&amp;midroll=0.8;20s&amp;consoleLog=true" id="ifVideo-15850" frameborder="0" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen="" scrolling="no" playtype="0"></iframe>
+                                </div>
+                                
+                            </div>
+                            <div class="col-5">
+                                <ul id="listVideo">
+                                    <li style="margin-bottom:20px">
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" onclick="ListVideo('http://vcplayer.vcmedia.vn/1.1/?_site=cafef&vid=cafef2/ut2ntormba1of3-mz-frmy8dl5ltjf/2018/03/06/plugin-ky-nang-phong-ve-1520307008188-7b05a.mp4&_listsuggest=http://online.cafef.vn/Handlers/Video/GetTopVideoByKeyVideo.ashx?vid=15858&_info=0ca7b279c3ce471b8f91bea08b5f1bb0&autoplay=true&_admParamTvc=0;0;0;0')">
+                                                <span><img src="http://video-thumbs.mediacdn.vn/zoom/110_73/cafef2/ut2ntormba1of3-mz-frmy8dl5ltjf/2018/03/06/plugin-ky-nang-phong-ve-1520307008188-7b05a.jpg" /></span>
+                                            </a>
+                                            <a style="margin-left:20px" href="javascript:void(0)" onclick="ListVideo('http://vcplayer.vcmedia.vn/1.1/?_site=cafef&vid=cafef2/ut2ntormba1of3-mz-frmy8dl5ltjf/2018/03/06/plugin-ky-nang-phong-ve-1520307008188-7b05a.mp4&_listsuggest=http://online.cafef.vn/Handlers/Video/GetTopVideoByKeyVideo.ashx?vid=15858&_info=0ca7b279c3ce471b8f91bea08b5f1bb0&autoplay=true&_admParamTvc=0;0;0;0')">
+
+                                                <p>7 kỹ năng tự vệ cho phụ nữ</p>
+                                            </a>
+                                        </div>
+
+                                    </li>
+
+                                    <li style="margin-bottom:20px">
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" onclick="ListVideo('http://vcplayer.vcmedia.vn/1.1/?_site=cafef&vid=cafef2/4s2rgmaghxgzdccccccccccccd-apn/2018/03/04/plugin-0037255424-1520127618093-3c095.mp4&_listsuggest=http://online.cafef.vn/Handlers/Video/GetTopVideoByKeyVideo.ashx?vid=15858&_info=9fd87ee1a1d94f8c8d86a6bb292d5431&autoplay=true&_admParamTvc=0;0;0;0')">
+                                                <span><img src="http://video-thumbs.mediacdn.vn/zoom/110_73/cafef2/4s2rgmaghxgzdccccccccccccd-apn/2018/03/04/plugin-0037255424-1520127618093-3c095.jpg" /></span>
+                                            </a>
+                                            <a style="margin-left:20px" href="javascript:void(0)" onclick="ListVideo('http://vcplayer.vcmedia.vn/1.1/?_site=cafef&vid=cafef2/4s2rgmaghxgzdccccccccccccd-apn/2018/03/04/plugin-0037255424-1520127618093-3c095.mp4&_listsuggest=http://online.cafef.vn/Handlers/Video/GetTopVideoByKeyVideo.ashx?vid=15858&_info=9fd87ee1a1d94f8c8d86a6bb292d5431&autoplay=true&_admParamTvc=0;0;0;0')">
+
+                                                <p>Dàn siêu xe triệu đô "gầm rú" trên đường phố Hà Nội</p>
+                                            </a>
+                                        </div>
+
+                                    </li>
+
+                                    <li style="margin-bottom:20px">
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" onclick="ListVideo('http://vcplayer.vcmedia.vn/1.1/?_site=cafef&vid=cafef2/yyf94whrfpkf3dgpmovhhytaotyy16/2018/03/03/plugin-hinh-anh-kinh-hoang-o-le-hoi-cuop-phet-hien-quan-1520081929806-bfbfa.mp4&_listsuggest=http://online.cafef.vn/Handlers/Video/GetTopVideoByKeyVideo.ashx?vid=15858&_info=1f68abf9e86b45b686938622eebf5d8d&autoplay=true&_admParamTvc=0;0;0;0')">
+                                                <span><img src="http://video-thumbs.mediacdn.vn/zoom/110_73/cafef2/yyf94whrfpkf3dgpmovhhytaotyy16/2018/03/03/plugin-hinh-anh-kinh-hoang-o-le-hoi-cuop-phet-hien-quan-1520081929806-bfbfa.jpg" /></span>
+                                            </a>
+                                            <a style="margin-left:20px" href="javascript:void(0)" onclick="ListVideo('http://vcplayer.vcmedia.vn/1.1/?_site=cafef&vid=cafef2/yyf94whrfpkf3dgpmovhhytaotyy16/2018/03/03/plugin-hinh-anh-kinh-hoang-o-le-hoi-cuop-phet-hien-quan-1520081929806-bfbfa.mp4&_listsuggest=http://online.cafef.vn/Handlers/Video/GetTopVideoByKeyVideo.ashx?vid=15858&_info=1f68abf9e86b45b686938622eebf5d8d&autoplay=true&_admParamTvc=0;0;0;0')">
+
+                                                <p>Dàn siêu xe triệu đô "gầm rú" trên đường phố Hà Nội</p>
+                                            </a>
+                                        </div>
+
+                                    </li>
+
+                                   
+
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="beforeFooter container" style="margin-bottom:20px;margin-top:20px">
+            <a href="#"><img src="//adi.admicro.vn/adt/adn/2015/09/dient-adx55effb5b0494c.png" /></a>
+        </div>
+        <nav class="navbar-expand-sm navbar-top" id="nav_bar" style="background-color:#004370;padding-top:0;padding-bottom:0">
+            <div class="container">
+                <div class="btn-group">
+                    <button type="button" class="btn" style="font-size:10px;background-color:#0064a6"><img src="IconHome.png" style="width:20px;margin-top:8px" /></button>
+                    <button type="button" class="btn">THỜI SỰ</button>
+                    <button type="button" class="btn">CHỨNG KHOÁN</button>
+                    <button type="button" class="btn">BẤT ĐỘNG SẢN</button>
+                    <button type="button" class="btn">DOANH NGHIỆP</button>
+                    <button type="button" class="btn">NGÂN HÀNG</button>
+                    <button type="button" class="btn">TÀI CHÍNH QUỐC TẾ</button>
+                    <button type="button" class="btn">VĨ MÔ</button>
+                    <button type="button" class="btn">SỐNG</button>
+                    <button type="button" class="btn">HÀNG HÓA</button>
+                </div>
+                <div class="btn-group ml-5">
+                    <button type="button" class="btn" style="height:51.67px">Dữ liệu</button>
+                    <button type="button" class="btn" style="height:51.67px">Top 200</button>
+                </div>
+            </div>
+
+
+        </nav>
+        <div class="d-flex align-items-stretch container" style="font-size:12px;margin-top:20px">
+            <div class="row">
+                <div class="col-5">
+                    <div>
+                        <b>Ban biên tập CafeF</b>
+                        <p>Địa chỉ: Tầng 21 Tòa nhà Center Building. Số 1 Nguyễn Huy Tưởng, Thanh Xuân, Hà Nội.</p>
+                        <p>Điện thoại: 024 7309 5555 Máy lẻ 292. Fax: 024-39744082</p>
+                        <p>Email: info@cafef.vn | Hotline: 0926 864 344</p>
+                        <p>Chịu trách nhiệm nội dung: Ông Nguyễn Thế Tân</p>
+                    </div>
+                </div>
+                <div class="col-3" style="height:160px;border-left:1px dotted grey;border-right:1px dotted grey;">
+                    <div>
+                        <b>Liên hệ quảng cáo</b>
+                        <p>Hotline: 0942 86 11 33</p>
+                        <p>Email: doanhnghiep@admicro.vn</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div>
+                        <a href="#"><img src="https://vccorp.mediacdn.vn/vccorp-s.png" /></a><br />
+                        <b>© Copyright 2007 - 2018 - Công ty Cổ phần VCCorp.</b>
+                        <p>Giấy phép thiết lập trang thông tin điện tử tổng hợp trên internet số 1084/GP-STTTT do Sở Thông tin và Truyền thông Hà Nội cấp ngày 16 tháng 4 năm 2014.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="d-flex align-items-start" style="margin-top:20px;background-color:#eaedf2;width:100%">
+            <div class="container">
+                <a href="#">Thỏa thuận chia sẻ nội dung</a>
+                <a class="ml-5" href="#">Chính sách bảo mật</a>
+                <span class="ml-5">Ghi rõ nguồn "CafeF" khi phát hành lại thông tin từ kênh thông tin này.</span>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+</body>
+</html>

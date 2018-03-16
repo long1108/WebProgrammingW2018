@@ -1,0 +1,316 @@
+﻿
+.logo {
+    width: 180px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+li {
+    list-style: none;
+}
+
+.TinMoiLi {
+    font-size: 12px;
+    line-height: 16px;
+    color: #0b75b1;
+    white-space: normal;
+    display: inline-block;
+    font-family: Arial;
+    padding-top: 1px;
+    font-weight: bold;
+}
+
+#top_event a {
+    color: #fff;
+    font-size: 13px;
+    padding-right: 20px
+}
+
+    #top_event a span {
+        font-size: 15px;
+        margin: -2px 5px 0 0
+    }
+
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+
+#nav_bar button {
+    color: white;
+    font-size: 11px;
+    background-color: #004370;
+    font-weight: bold
+}
+
+
+    #nav_bar button:hover {
+        background-color: #0064a6 !important
+    }
+
+.borderRadius3px {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.one-edge-shadow {
+    -webkit-box-shadow: 0 8px 6px -6px lightgrey;
+    -moz-box-shadow: 0 8px 6px -6px lightgrey;
+    box-shadow: 0 8px 6px -6px lightgrey;
+}
+
+.boderRight {
+    border-right: 1px dotted grey;
+    color: #797979;
+    width: 87px !important;
+    text-align: center
+}
+
+.borderBottom {
+    background: url("sea-waves.png") repeat-x;
+    height: 13px;
+    display: block
+}
+
+#maCK a {
+    display: inline-flex;
+    width: 100px;
+    height: 40px;
+    flex-wrap: wrap
+}
+
+.icon {
+    width: 20%;
+}
+
+
+/*switch button***/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 15px;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 10px;
+        width: 10px;
+        bottom: 2px;
+        background-color: gray;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+input:checked + .slider {
+}
+
+    input:checked + .slider:before {
+        -webkit-transform: translateX(18px);
+        -ms-transform: translateX(18px);
+        transform: translateX(18px);
+        background-color: #004370;
+    }
+
+.slider.round {
+    border: 1px solid grey;
+    border-radius: 34px;
+}
+
+    .slider.round:before {
+        border-radius: 50%;
+    }
+/*******MIDDLE HEADER*********/
+.linkBorder {
+    border: 1px solid;
+    border-color: lightgray;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+
+.tableNgoaiTe td, th {
+    color: #3c3b3b;
+    border-right: 1px solid #ddebf4;
+    border-left: 1px solid #fff;
+    width: 64px;
+    text-align: center;
+    padding: 7px 0;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+
+/*Tab css*/
+body {
+    font-family: Arial;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+
+    /* Style the buttons inside the tab */
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+    }
+
+        /* Change background color of buttons on hover */
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+            font-size: 18px;
+            font-weight: bold
+        }
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.laiSuat {
+    font-size: 13px
+}
+
+    .laiSuat thead {
+        background-color: #e6f9f9
+    }
+
+    .laiSuat tbody tr th {
+        background-color: #e6f9f9
+    }
+
+    .laiSuat th, td {
+        width: 100%;
+        padding: 10px
+    }
+
+    .laiSuat tbody tr:nth-child(2n) th {
+        background-color: #cdeeee !important
+    }
+
+    .laiSuat tbody tr:nth-child(2n) {
+        background-color: #f4f4f4
+    }
+
+    .laiSuat tbody tr:nth-child(2n+1) {
+        background-color: white
+    }
+
+
+.stick {
+    position: fixed;
+    bottom: 0;
+    right: 150px;
+}
+
+
+.ultimos-videos-fixed {
+    position: fixed;
+    top: 70px;
+    right: 150px
+}
+
+.ultimos-videos-stop {
+    position: absolute;
+    bottom: 0;
+    top: auto;
+    left: 0;
+}
+
+.groupContent .row {
+    border-bottom: 2px solid #f2f2f2;
+    border-top: 2px solid #f2f2f2
+}
+
+.groupContent ul li {
+    list-style: url("iconListStyle.png");
+    margin-left: 10px
+}
+
+    .groupContent ul li a {
+        font-size: 15px;
+        color: #000;
+        display: block;
+        line-height: 20px;
+        font-family: Roboto-Regular;
+        padding-left: 12px;
+        margin: 10px 0;
+    }
+
+#gocDauTu img {
+    margin: 10px 0;
+}
+
+.groupContent2 a {
+    font-family: Roboto-Bold;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #202020;
+}
+#listVideo li div a p {
+    color: #c3c3c3;
+    font-size: 20px;
+    font-family: Roboto-Medium;
+    width: 160px;
+    display: inline-block;
+    margin-top: -2px;
+}
+
+.active{
+    display:none
+}
+#active .active:active{
+    display:block
+}
+#myDIV2 h5{
+    font-weight:600
+}
+#myDIV2 ul li a {
+    color: #535353;
+    line-height: 30px
+}
+#myDIV2 ul li {
+        list-style: square
+    }
+#tableMouseOver ul {
+    padding-left:0;
+    padding-right:20px
+}#tableMouseOver ul li {
+    list-style: none
+}
